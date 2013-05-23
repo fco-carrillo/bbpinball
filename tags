@@ -1,0 +1,1513 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_NAME	src/bbWinMain.c	894;"	d	file:
+APP_NAME	src/bbWinMain_perfcount.c	882;"	d	file:
+AdjustedHeight	src/bbWinMain.c	/^int AdjustedHeight = 0;$/;"	v
+AdjustedWidth	src/bbWinMain.c	/^int AdjustedWidth = 0;$/;"	v
+BBBall	build/bbPinball.c	/^} BBBall;$/;"	t	typeref:struct:BBBall_s	file:
+BBBall	src/bbPinball.c	/^} BBBall;$/;"	t	typeref:struct:BBBall_s	file:
+BBBallCollision	build/bbPinball.c	/^} BBBallCollision;$/;"	t	typeref:struct:BBBallCollision_s	file:
+BBBallCollision	src/bbPinball.c	/^} BBBallCollision;$/;"	t	typeref:struct:BBBallCollision_s	file:
+BBBallCollision_s	build/bbPinball.c	/^typedef struct BBBallCollision_s$/;"	s	file:
+BBBallCollision_s	src/bbPinball.c	/^typedef struct BBBallCollision_s$/;"	s	file:
+BBBall_s	build/bbPinball.c	/^typedef struct BBBall_s$/;"	s	file:
+BBBall_s	src/bbPinball.c	/^typedef struct BBBall_s$/;"	s	file:
+BBCOLLISIONMAP_H	include/bbCollisionMap.h	9;"	d
+BBCollisionMap	include/bbCollisionMap.h	/^typedef struct BBCollisionMap_s BBCollisionMap;$/;"	t	typeref:struct:BBCollisionMap_s
+BBCollisionMap_create	build/bbCollisionMap.c	/^BBCollisionMap* BBCollisionMap_create ()$/;"	f
+BBCollisionMap_create	src/bbCollisionMap.c	/^BBCollisionMap* BBCollisionMap_create ()$/;"	f
+BBCollisionMap_destroy	build/bbCollisionMap.c	/^void BBCollisionMap_destroy (BBCollisionMap* map)$/;"	f
+BBCollisionMap_destroy	src/bbCollisionMap.c	/^void BBCollisionMap_destroy (BBCollisionMap* map)$/;"	f
+BBCollisionMap_getPoint	build/bbCollisionMap.c	/^GLuint BBCollisionMap_getPoint (BBCollisionMap* map, const GLfloat* pos)$/;"	f
+BBCollisionMap_getPoint	src/bbCollisionMap.c	/^GLuint BBCollisionMap_getPoint (BBCollisionMap* map, const GLfloat* pos)$/;"	f
+BBCollisionMap_load	build/bbCollisionMap.c	/^GLboolean BBCollisionMap_load (BBCollisionMap* map, GLubyte* data,$/;"	f
+BBCollisionMap_load	src/bbCollisionMap.c	/^GLboolean BBCollisionMap_load (BBCollisionMap* map, GLubyte* data,$/;"	f
+BBCollisionMap_s	build/bbCollisionMap.c	/^struct BBCollisionMap_s$/;"	s	file:
+BBCollisionMap_s	src/bbCollisionMap.c	/^struct BBCollisionMap_s$/;"	s	file:
+BBCollisionMap_setArea	build/bbCollisionMap.c	/^void BBCollisionMap_setArea (BBCollisionMap* map, GLfloat left, GLfloat top,$/;"	f
+BBCollisionMap_setArea	src/bbCollisionMap.c	/^void BBCollisionMap_setArea (BBCollisionMap* map, GLfloat left, GLfloat top,$/;"	f
+BBGLUTILS_H	include/bbGLUtils.h	9;"	d
+BBHighscore	build/bbPinball.c	/^typedef struct BBHighscore_s BBHighscore;$/;"	t	typeref:struct:BBHighscore_s	file:
+BBHighscore	src/bbPinball.c	/^typedef struct BBHighscore_s BBHighscore;$/;"	t	typeref:struct:BBHighscore_s	file:
+BBHighscore_s	build/bbPinball.c	/^struct BBHighscore_s$/;"	s	file:
+BBHighscore_s	src/bbPinball.c	/^struct BBHighscore_s$/;"	s	file:
+BBKeyCode	include/bbPinball.h	/^} BBKeyCode;$/;"	t	typeref:enum:__anon7
+BBMATERIAL_H	include/bbMaterial.h	9;"	d
+BBMATH_H	include/bbMath.h	9;"	d
+BBMESHSTORE_H	include/bbMeshStore.h	9;"	d
+BBMESH_H	include/bbMesh.h	9;"	d
+BBMaterial	include/bbMaterial.h	/^} BBMaterial;$/;"	t	typeref:struct:BBMaterial_s
+BBMaterialStore	include/bbMaterial.h	/^typedef struct BBMaterialStore_s BBMaterialStore;$/;"	t	typeref:struct:BBMaterialStore_s
+BBMaterialStore_create	build/bbMaterial.c	/^BBMaterialStore* BBMaterialStore_create ()$/;"	f
+BBMaterialStore_create	src/bbMaterial.c	/^BBMaterialStore* BBMaterialStore_create ()$/;"	f
+BBMaterialStore_destroy	build/bbMaterial.c	/^void BBMaterialStore_destroy (BBMaterialStore* matStore)$/;"	f
+BBMaterialStore_destroy	src/bbMaterial.c	/^void BBMaterialStore_destroy (BBMaterialStore* matStore)$/;"	f
+BBMaterialStore_getMaterial	build/bbMaterial.c	/^BBMaterial* BBMaterialStore_getMaterial (BBMaterialStore* matStore, const char* name)$/;"	f
+BBMaterialStore_getMaterial	src/bbMaterial.c	/^BBMaterial* BBMaterialStore_getMaterial (BBMaterialStore* matStore, const char* name)$/;"	f
+BBMaterialStore_load	build/bbMaterial.c	/^GLboolean BBMaterialStore_load (BBMaterialStore* matStore,$/;"	f
+BBMaterialStore_load	src/bbMaterial.c	/^GLboolean BBMaterialStore_load (BBMaterialStore* matStore,$/;"	f
+BBMaterialStore_s	build/bbMaterial.c	/^struct BBMaterialStore_s$/;"	s	file:
+BBMaterialStore_s	src/bbMaterial.c	/^struct BBMaterialStore_s$/;"	s	file:
+BBMaterial_activate	build/bbMaterial.c	/^GLuint BBMaterial_activate (BBMaterial* material, GLboolean forceAdditive)$/;"	f
+BBMaterial_activate	src/bbMaterial.c	/^GLuint BBMaterial_activate (BBMaterial* material, GLboolean forceAdditive)$/;"	f
+BBMaterial_create	build/bbMaterial.c	/^BBMaterial* BBMaterial_create ()$/;"	f
+BBMaterial_create	src/bbMaterial.c	/^BBMaterial* BBMaterial_create ()$/;"	f
+BBMaterial_deactivate	build/bbMaterial.c	/^void BBMaterial_deactivate (BBMaterial* material, GLboolean forceAdditive)$/;"	f
+BBMaterial_deactivate	src/bbMaterial.c	/^void BBMaterial_deactivate (BBMaterial* material, GLboolean forceAdditive)$/;"	f
+BBMaterial_destroy	build/bbMaterial.c	/^void BBMaterial_destroy (BBMaterial* material)$/;"	f
+BBMaterial_destroy	src/bbMaterial.c	/^void BBMaterial_destroy (BBMaterial* material)$/;"	f
+BBMaterial_isTransparent	build/bbMaterial.c	/^GLboolean BBMaterial_isTransparent (BBMaterial* material)$/;"	f
+BBMaterial_isTransparent	src/bbMaterial.c	/^GLboolean BBMaterial_isTransparent (BBMaterial* material)$/;"	f
+BBMaterial_s	include/bbMaterial.h	/^typedef struct BBMaterial_s$/;"	s
+BBMesh	include/bbMesh.h	/^typedef struct BBMesh_s BBMesh;$/;"	t	typeref:struct:BBMesh_s
+BBMeshList	build/bbMeshStore.c	/^typedef struct BBMeshList_s BBMeshList;$/;"	t	typeref:struct:BBMeshList_s	file:
+BBMeshList	src/bbMeshStore.c	/^typedef struct BBMeshList_s BBMeshList;$/;"	t	typeref:struct:BBMeshList_s	file:
+BBMeshList_create	build/bbMeshStore.c	/^BBMeshList* BBMeshList_create (BBMesh* mesh)$/;"	f
+BBMeshList_create	src/bbMeshStore.c	/^BBMeshList* BBMeshList_create (BBMesh* mesh)$/;"	f
+BBMeshList_destroy	build/bbMeshStore.c	/^void BBMeshList_destroy (BBMeshList* meshList)$/;"	f
+BBMeshList_destroy	src/bbMeshStore.c	/^void BBMeshList_destroy (BBMeshList* meshList)$/;"	f
+BBMeshList_s	build/bbMeshStore.c	/^struct BBMeshList_s$/;"	s	file:
+BBMeshList_s	src/bbMeshStore.c	/^struct BBMeshList_s$/;"	s	file:
+BBMeshStore	include/bbMeshStore.h	/^typedef struct BBMeshStore_s BBMeshStore;$/;"	t	typeref:struct:BBMeshStore_s
+BBMeshStore_create	build/bbMeshStore.c	/^BBMeshStore* BBMeshStore_create (BBMaterialStore* matStore)$/;"	f
+BBMeshStore_create	src/bbMeshStore.c	/^BBMeshStore* BBMeshStore_create (BBMaterialStore* matStore)$/;"	f
+BBMeshStore_destroy	build/bbMeshStore.c	/^void BBMeshStore_destroy (BBMeshStore* store)$/;"	f
+BBMeshStore_destroy	src/bbMeshStore.c	/^void BBMeshStore_destroy (BBMeshStore* store)$/;"	f
+BBMeshStore_exchange	build/bbMeshStore.c	/^GLboolean BBMeshStore_exchange (BBMeshStore* store, BBMeshStore* target, BBMesh* mesh)$/;"	f
+BBMeshStore_exchange	src/bbMeshStore.c	/^GLboolean BBMeshStore_exchange (BBMeshStore* store, BBMeshStore* target, BBMesh* mesh)$/;"	f
+BBMeshStore_exchangeByName	build/bbMeshStore.c	/^GLboolean BBMeshStore_exchangeByName (BBMeshStore* store, BBMeshStore* target, const char* name)$/;"	f
+BBMeshStore_exchangeByName	src/bbMeshStore.c	/^GLboolean BBMeshStore_exchangeByName (BBMeshStore* store, BBMeshStore* target, const char* name)$/;"	f
+BBMeshStore_getFirstMesh	build/bbMeshStore.c	/^BBMesh* BBMeshStore_getFirstMesh (BBMeshStore* store)$/;"	f
+BBMeshStore_getFirstMesh	src/bbMeshStore.c	/^BBMesh* BBMeshStore_getFirstMesh (BBMeshStore* store)$/;"	f
+BBMeshStore_getMeshByName	build/bbMeshStore.c	/^BBMesh* BBMeshStore_getMeshByName (BBMeshStore* store, const char* name)$/;"	f
+BBMeshStore_getMeshByName	src/bbMeshStore.c	/^BBMesh* BBMeshStore_getMeshByName (BBMeshStore* store, const char* name)$/;"	f
+BBMeshStore_getNextMesh	build/bbMeshStore.c	/^BBMesh* BBMeshStore_getNextMesh (BBMeshStore* store, BBMesh* current)$/;"	f
+BBMeshStore_getNextMesh	src/bbMeshStore.c	/^BBMesh* BBMeshStore_getNextMesh (BBMeshStore* store, BBMesh* current)$/;"	f
+BBMeshStore_load	build/bbMeshStore.c	/^GLboolean BBMeshStore_load (BBMeshStore* store, const char* filename, int useVBO, int useIBO)$/;"	f
+BBMeshStore_load	src/bbMeshStore.c	/^GLboolean BBMeshStore_load (BBMeshStore* store, const char* filename, int useVBO, int useIBO)$/;"	f
+BBMeshStore_loadMesh	build/bbMeshStore.c	/^BBMesh* BBMeshStore_loadMesh (BBMeshStore* store, FILE* f, int useVBO, int useIBO)$/;"	f
+BBMeshStore_loadMesh	src/bbMeshStore.c	/^BBMesh* BBMeshStore_loadMesh (BBMeshStore* store, FILE* f, int useVBO, int useIBO)$/;"	f
+BBMeshStore_removeFromList	build/bbMeshStore.c	/^GLboolean BBMeshStore_removeFromList (BBMeshStore* store, BBMesh* mesh)$/;"	f
+BBMeshStore_removeFromList	src/bbMeshStore.c	/^GLboolean BBMeshStore_removeFromList (BBMeshStore* store, BBMesh* mesh)$/;"	f
+BBMeshStore_s	build/bbMeshStore.c	/^struct BBMeshStore_s$/;"	s	file:
+BBMeshStore_s	src/bbMeshStore.c	/^struct BBMeshStore_s$/;"	s	file:
+BBMesh_addSubMesh	build/bbMesh.c	/^GLboolean BBMesh_addSubMesh (BBMesh* mesh, GLuint start, GLuint count, const char* materialName)$/;"	f
+BBMesh_addSubMesh	src/bbMesh.c	/^GLboolean BBMesh_addSubMesh (BBMesh* mesh, GLuint start, GLuint count, const char* materialName)$/;"	f
+BBMesh_create	build/bbMesh.c	/^BBMesh* BBMesh_create (BBMaterialStore* matStore, const char* name, int useVBO, int useIBO)$/;"	f
+BBMesh_create	src/bbMesh.c	/^BBMesh* BBMesh_create (BBMaterialStore* matStore, const char* name, int useVBO, int useIBO)$/;"	f
+BBMesh_destroy	build/bbMesh.c	/^void BBMesh_destroy (BBMesh* mesh)$/;"	f
+BBMesh_destroy	src/bbMesh.c	/^void BBMesh_destroy (BBMesh* mesh)$/;"	f
+BBMesh_draw	build/bbMesh.c	/^GLboolean BBMesh_draw (BBMesh* mesh, UniformSetupFunc uniformSetup, void* userPtr, GLboolean drawTransparents, GLboolean forceAdditive)$/;"	f
+BBMesh_draw	src/bbMesh.c	/^GLboolean BBMesh_draw (BBMesh* mesh, UniformSetupFunc uniformSetup, void* userPtr, GLboolean drawTransparents, GLboolean forceAdditive)$/;"	f
+BBMesh_getName	build/bbMesh.c	/^const char* BBMesh_getName (BBMesh* mesh)$/;"	f
+BBMesh_getName	src/bbMesh.c	/^const char* BBMesh_getName (BBMesh* mesh)$/;"	f
+BBMesh_loadIndices	build/bbMesh.c	/^GLboolean BBMesh_loadIndices (BBMesh* mesh, const GLuint* indices, GLuint count)$/;"	f
+BBMesh_loadIndices	src/bbMesh.c	/^GLboolean BBMesh_loadIndices (BBMesh* mesh, const GLuint* indices, GLuint count)$/;"	f
+BBMesh_loadVertices	build/bbMesh.c	/^GLboolean BBMesh_loadVertices (BBMesh* mesh, const void* vertices, GLsizei bytes, GLuint decl)$/;"	f
+BBMesh_loadVertices	src/bbMesh.c	/^GLboolean BBMesh_loadVertices (BBMesh* mesh, const void* vertices, GLsizei bytes, GLuint decl)$/;"	f
+BBMesh_s	build/bbMesh.c	/^struct BBMesh_s$/;"	s	file:
+BBMesh_s	src/bbMesh.c	/^struct BBMesh_s$/;"	s	file:
+BBPARSERUTILS_H	include/bbParserUtils.h	9;"	d
+BBPINBALLDEFINES_H	include/bbPinballDefines.h	9;"	d
+BBPINBALL_H	include/bbPinball.h	9;"	d
+BBPinball	include/bbPinball.h	/^typedef struct BBPinball_s BBPinball;$/;"	t	typeref:struct:BBPinball_s
+BBPinballCreateParams	include/bbPinball.h	/^} BBPinballCreateParams;$/;"	t	typeref:struct:BBPinballCreateParams_s
+BBPinballCreateParams_s	include/bbPinball.h	/^typedef struct BBPinballCreateParams_s$/;"	s
+BBPinballUniformSetupCache	include/bbMaterial.h	/^} BBPinballUniformSetupCache;$/;"	t	typeref:struct:__anon10
+BBPinball_ballPhysics	build/bbPinball.c	/^void BBPinball_ballPhysics (BBPinball* pinball, BBBall* ball)$/;"	f
+BBPinball_ballPhysics	src/bbPinball.c	/^void BBPinball_ballPhysics (BBPinball* pinball, BBBall* ball)$/;"	f
+BBPinball_bglSwapBuffer	build/bbLinuxMain.c	/^void BBPinball_bglSwapBuffer(EGLDisplay dpy, EGLSurface surface)$/;"	f
+BBPinball_bglSwapBuffer	src/bbLinuxMain.c	/^void BBPinball_bglSwapBuffer(EGLDisplay dpy, EGLSurface surface)$/;"	f
+BBPinball_bglSwapBuffer	src/bbWinMain.c	/^void BBPinball_bglSwapBuffer(EGLDisplay dpy, EGLSurface surface)$/;"	f
+BBPinball_calculateRacketMatrix	build/bbPinball.c	/^void BBPinball_calculateRacketMatrix (BBPinball* pinball, GLfloat* matrix,$/;"	f
+BBPinball_calculateRacketMatrix	src/bbPinball.c	/^void BBPinball_calculateRacketMatrix (BBPinball* pinball, GLfloat* matrix,$/;"	f
+BBPinball_changePlayer	build/bbPinball.c	/^GLboolean BBPinball_changePlayer (BBPinball* pinball, GLuint playerIndex)$/;"	f
+BBPinball_changePlayer	src/bbPinball.c	/^GLboolean BBPinball_changePlayer (BBPinball* pinball, GLuint playerIndex)$/;"	f
+BBPinball_create	build/bbPinball.c	/^BBPinball* BBPinball_create (BBPinballCreateParams* params)$/;"	f
+BBPinball_create	src/bbPinball.c	/^BBPinball* BBPinball_create (BBPinballCreateParams* params)$/;"	f
+BBPinball_destroy	build/bbPinball.c	/^void BBPinball_destroy (BBPinball* pinball)$/;"	f
+BBPinball_destroy	src/bbPinball.c	/^void BBPinball_destroy (BBPinball* pinball)$/;"	f
+BBPinball_draw	build/bbPinball.c	/^void BBPinball_draw (BBPinball* pinball)$/;"	f
+BBPinball_draw	src/bbPinball.c	/^void BBPinball_draw (BBPinball* pinball)$/;"	f
+BBPinball_drawLedScreen	build/bbPinball.c	/^static void BBPinball_drawLedScreen (BBPinball* pinball)$/;"	f	file:
+BBPinball_drawLedScreen	src/bbPinball.c	/^static void BBPinball_drawLedScreen (BBPinball* pinball)$/;"	f	file:
+BBPinball_drawRacket	build/bbPinball.c	/^void BBPinball_drawRacket (BBPinball* pinball, BBMesh* mesh, BBMesh* shadowMesh, const GLfloat* matrix, GLboolean mirror)$/;"	f
+BBPinball_drawRacket	src/bbPinball.c	/^void BBPinball_drawRacket (BBPinball* pinball, BBMesh* mesh, BBMesh* shadowMesh, const GLfloat* matrix, GLboolean mirror)$/;"	f
+BBPinball_drawText	build/bbPinball.c	/^void BBPinball_drawText (BBPinball* pinball, const char* string, GLfloat x, GLfloat y, GLboolean shadow)$/;"	f
+BBPinball_drawText	src/bbPinball.c	/^void BBPinball_drawText (BBPinball* pinball, const char* string, GLfloat x, GLfloat y, GLboolean shadow)$/;"	f
+BBPinball_dumpRecording	build/bbPinball.c	/^void BBPinball_dumpRecording (BBPinball* pinball)$/;"	f
+BBPinball_dumpRecording	src/bbPinball.c	/^void BBPinball_dumpRecording (BBPinball* pinball)$/;"	f
+BBPinball_endGame	build/bbPinball.c	/^void BBPinball_endGame (BBPinball* pinball, GLboolean doHighscoreCheck)$/;"	f
+BBPinball_endGame	src/bbPinball.c	/^void BBPinball_endGame (BBPinball* pinball, GLboolean doHighscoreCheck)$/;"	f
+BBPinball_init	build/bbPinball.c	/^GLboolean BBPinball_init (BBPinball* pinball)$/;"	f
+BBPinball_init	src/bbPinball.c	/^GLboolean BBPinball_init (BBPinball* pinball)$/;"	f
+BBPinball_isInsideAreas	build/bbPinball.c	/^GLboolean BBPinball_isInsideAreas (BBPinball* pinball, const GLfloat* pos,$/;"	f
+BBPinball_isInsideAreas	src/bbPinball.c	/^GLboolean BBPinball_isInsideAreas (BBPinball* pinball, const GLfloat* pos,$/;"	f
+BBPinball_keyEvent	build/bbPinball.c	/^void BBPinball_keyEvent (BBPinball* pinball, GLboolean down, GLint key)$/;"	f
+BBPinball_keyEvent	src/bbPinball.c	/^void BBPinball_keyEvent (BBPinball* pinball, GLboolean down, GLint key)$/;"	f
+BBPinball_lineCollision	build/bbPinball.c	/^GLboolean BBPinball_lineCollision (BBPinball* pinball,$/;"	f
+BBPinball_lineCollision	src/bbPinball.c	/^GLboolean BBPinball_lineCollision (BBPinball* pinball,$/;"	f
+BBPinball_loadRecording	build/bbPinball.c	/^GLboolean BBPinball_loadRecording (BBPinball* pinball)$/;"	f
+BBPinball_loadRecording	src/bbPinball.c	/^GLboolean BBPinball_loadRecording (BBPinball* pinball)$/;"	f
+BBPinball_main	build/bbPinball.c	/^GLboolean BBPinball_main (BBPinball* pinball)$/;"	f
+BBPinball_main	src/bbPinball.c	/^GLboolean BBPinball_main (BBPinball* pinball)$/;"	f
+BBPinball_newGame	build/bbPinball.c	/^void BBPinball_newGame (BBPinball* pinball\/*, GLsizei playerCount*\/)$/;"	f
+BBPinball_newGame	src/bbPinball.c	/^void BBPinball_newGame (BBPinball* pinball\/*, GLsizei playerCount*\/)$/;"	f
+BBPinball_playSFX	build/bbPinball.c	/^void BBPinball_playSFX (BBPinball* pinball, GLuint index, GLfloat volume, GLboolean repeat)$/;"	f
+BBPinball_playSFX	src/bbPinball.c	/^void BBPinball_playSFX (BBPinball* pinball, GLuint index, GLfloat volume, GLboolean repeat)$/;"	f
+BBPinball_playbackFrame	build/bbPinball.c	/^GLboolean BBPinball_playbackFrame (BBPinball* pinball, GLboolean reset)$/;"	f
+BBPinball_playbackFrame	src/bbPinball.c	/^GLboolean BBPinball_playbackFrame (BBPinball* pinball, GLboolean reset)$/;"	f
+BBPinball_ptrEvent	build/bbPinball.c	/^void BBPinball_ptrEvent (BBPinball* pinball, GLint x, GLint y)$/;"	f
+BBPinball_ptrEvent	src/bbPinball.c	/^void BBPinball_ptrEvent (BBPinball* pinball, GLint x, GLint y)$/;"	f
+BBPinball_s	build/bbPinball.c	/^struct BBPinball_s$/;"	s	file:
+BBPinball_s	src/bbPinball.c	/^struct BBPinball_s$/;"	s	file:
+BBPinball_saveRecording	build/bbPinball.c	/^GLboolean BBPinball_saveRecording (BBPinball* pinball)$/;"	f
+BBPinball_saveRecording	src/bbPinball.c	/^GLboolean BBPinball_saveRecording (BBPinball* pinball)$/;"	f
+BBPinball_scrollLights	build/bbPinball.c	/^void BBPinball_scrollLights (BBPinball* pinball, GLboolean right)$/;"	f
+BBPinball_scrollLights	src/bbPinball.c	/^void BBPinball_scrollLights (BBPinball* pinball, GLboolean right)$/;"	f
+BBPinball_storeFrame	build/bbPinball.c	/^GLboolean BBPinball_storeFrame (BBPinball* pinball)$/;"	f
+BBPinball_storeFrame	src/bbPinball.c	/^GLboolean BBPinball_storeFrame (BBPinball* pinball)$/;"	f
+BBPinball_update	build/bbPinball.c	/^void BBPinball_update (BBPinball* pinball)$/;"	f
+BBPinball_update	src/bbPinball.c	/^void BBPinball_update (BBPinball* pinball)$/;"	f
+BBPinball_updateCamera	build/bbPinball.c	/^void BBPinball_updateCamera (BBPinball* pinball)$/;"	f
+BBPinball_updateCamera	src/bbPinball.c	/^void BBPinball_updateCamera (BBPinball* pinball)$/;"	f
+BBPinball_vectorCollision	build/bbPinball.c	/^GLboolean BBPinball_vectorCollision (BBPinball* pinball, const GLfloat* coords, GLsizei count,$/;"	f
+BBPinball_vectorCollision	src/bbPinball.c	/^GLboolean BBPinball_vectorCollision (BBPinball* pinball, const GLfloat* coords, GLsizei count,$/;"	f
+BBPlayer	build/bbPinball.c	/^typedef struct BBPlayer_s BBPlayer;$/;"	t	typeref:struct:BBPlayer_s	file:
+BBPlayer	src/bbPinball.c	/^typedef struct BBPlayer_s BBPlayer;$/;"	t	typeref:struct:BBPlayer_s	file:
+BBPlayer_defaultValues	build/bbPinball.c	/^void BBPlayer_defaultValues (BBPlayer* player)$/;"	f
+BBPlayer_defaultValues	src/bbPinball.c	/^void BBPlayer_defaultValues (BBPlayer* player)$/;"	f
+BBPlayer_init	build/bbPinball.c	/^void BBPlayer_init (BBPlayer* player)$/;"	f
+BBPlayer_init	src/bbPinball.c	/^void BBPlayer_init (BBPlayer* player)$/;"	f
+BBPlayer_s	build/bbPinball.c	/^struct BBPlayer_s$/;"	s	file:
+BBPlayer_s	src/bbPinball.c	/^struct BBPlayer_s$/;"	s	file:
+BBProgramObject	build/bbShaderStack.c	/^typedef struct BBProgramObject_s BBProgramObject;$/;"	t	typeref:struct:BBProgramObject_s	file:
+BBProgramObject	src/bbShaderStack.c	/^typedef struct BBProgramObject_s BBProgramObject;$/;"	t	typeref:struct:BBProgramObject_s	file:
+BBProgramObject_create	build/bbShaderStack.c	/^BBProgramObject* BBProgramObject_create (BBShaderObject* vertexObj, BBShaderObject* fragObj)$/;"	f
+BBProgramObject_create	src/bbShaderStack.c	/^BBProgramObject* BBProgramObject_create (BBShaderObject* vertexObj, BBShaderObject* fragObj)$/;"	f
+BBProgramObject_destroy	build/bbShaderStack.c	/^void BBProgramObject_destroy (BBProgramObject* prog)$/;"	f
+BBProgramObject_destroy	src/bbShaderStack.c	/^void BBProgramObject_destroy (BBProgramObject* prog)$/;"	f
+BBProgramObject_s	build/bbShaderStack.c	/^struct BBProgramObject_s$/;"	s	file:
+BBProgramObject_s	src/bbShaderStack.c	/^struct BBProgramObject_s$/;"	s	file:
+BBRecordChunk	build/bbPinball.c	/^typedef struct BBRecordChunk_s BBRecordChunk;$/;"	t	typeref:struct:BBRecordChunk_s	file:
+BBRecordChunk	src/bbPinball.c	/^typedef struct BBRecordChunk_s BBRecordChunk;$/;"	t	typeref:struct:BBRecordChunk_s	file:
+BBRecordChunk_create	build/bbPinball.c	/^BBRecordChunk* BBRecordChunk_create ()$/;"	f
+BBRecordChunk_create	src/bbPinball.c	/^BBRecordChunk* BBRecordChunk_create ()$/;"	f
+BBRecordChunk_destroy	build/bbPinball.c	/^void BBRecordChunk_destroy (BBRecordChunk* chunk)$/;"	f
+BBRecordChunk_destroy	src/bbPinball.c	/^void BBRecordChunk_destroy (BBRecordChunk* chunk)$/;"	f
+BBRecordChunk_s	build/bbPinball.c	/^struct BBRecordChunk_s$/;"	s	file:
+BBRecordChunk_s	src/bbPinball.c	/^struct BBRecordChunk_s$/;"	s	file:
+BBRecordFrame	build/bbPinball.c	/^} BBRecordFrame;$/;"	t	typeref:struct:BBRecordFrame_s	file:
+BBRecordFrame	src/bbPinball.c	/^} BBRecordFrame;$/;"	t	typeref:struct:BBRecordFrame_s	file:
+BBRecordFrame_s	build/bbPinball.c	/^typedef struct BBRecordFrame_s$/;"	s	file:
+BBRecordFrame_s	src/bbPinball.c	/^typedef struct BBRecordFrame_s$/;"	s	file:
+BBSHADERSTACK_H	include/bbShaderStack.h	9;"	d
+BBShaderObject	build/bbShaderStack.c	/^typedef struct BBShaderObject_s BBShaderObject;$/;"	t	typeref:struct:BBShaderObject_s	file:
+BBShaderObject	src/bbShaderStack.c	/^typedef struct BBShaderObject_s BBShaderObject;$/;"	t	typeref:struct:BBShaderObject_s	file:
+BBShaderObject_create	build/bbShaderStack.c	/^BBShaderObject* BBShaderObject_create (const char* name)$/;"	f
+BBShaderObject_create	src/bbShaderStack.c	/^BBShaderObject* BBShaderObject_create (const char* name)$/;"	f
+BBShaderObject_destroy	build/bbShaderStack.c	/^void BBShaderObject_destroy (BBShaderObject* obj)$/;"	f
+BBShaderObject_destroy	src/bbShaderStack.c	/^void BBShaderObject_destroy (BBShaderObject* obj)$/;"	f
+BBShaderObject_s	build/bbShaderStack.c	/^struct BBShaderObject_s$/;"	s	file:
+BBShaderObject_s	src/bbShaderStack.c	/^struct BBShaderObject_s$/;"	s	file:
+BBShaderStack	include/bbShaderStack.h	/^typedef struct BBShaderStack_s	BBShaderStack;$/;"	t	typeref:struct:BBShaderStack_s
+BBShaderStack_addProgram	build/bbShaderStack.c	/^void BBShaderStack_addProgram (BBShaderStack* stack, BBProgramObject* programObj)$/;"	f
+BBShaderStack_addProgram	src/bbShaderStack.c	/^void BBShaderStack_addProgram (BBShaderStack* stack, BBProgramObject* programObj)$/;"	f
+BBShaderStack_addShader	build/bbShaderStack.c	/^void BBShaderStack_addShader (BBShaderStack* stack, BBShaderObject* shaderObj)$/;"	f
+BBShaderStack_addShader	src/bbShaderStack.c	/^void BBShaderStack_addShader (BBShaderStack* stack, BBShaderObject* shaderObj)$/;"	f
+BBShaderStack_create	build/bbShaderStack.c	/^BBShaderStack* BBShaderStack_create ()$/;"	f
+BBShaderStack_create	src/bbShaderStack.c	/^BBShaderStack* BBShaderStack_create ()$/;"	f
+BBShaderStack_destroy	build/bbShaderStack.c	/^void BBShaderStack_destroy (BBShaderStack* stack)$/;"	f
+BBShaderStack_destroy	src/bbShaderStack.c	/^void BBShaderStack_destroy (BBShaderStack* stack)$/;"	f
+BBShaderStack_findProgram	build/bbShaderStack.c	/^BBProgramObject* BBShaderStack_findProgram (BBShaderStack* stack,$/;"	f
+BBShaderStack_findProgram	src/bbShaderStack.c	/^BBProgramObject* BBShaderStack_findProgram (BBShaderStack* stack,$/;"	f
+BBShaderStack_findShader	build/bbShaderStack.c	/^BBShaderObject* BBShaderStack_findShader (BBShaderStack* stack, const char* name)$/;"	f
+BBShaderStack_findShader	src/bbShaderStack.c	/^BBShaderObject* BBShaderStack_findShader (BBShaderStack* stack, const char* name)$/;"	f
+BBShaderStack_getProgram	build/bbShaderStack.c	/^GLuint BBShaderStack_getProgram (BBShaderStack* stack,$/;"	f
+BBShaderStack_getProgram	src/bbShaderStack.c	/^GLuint BBShaderStack_getProgram (BBShaderStack* stack,$/;"	f
+BBShaderStack_s	build/bbShaderStack.c	/^struct BBShaderStack_s$/;"	s	file:
+BBShaderStack_s	src/bbShaderStack.c	/^struct BBShaderStack_s$/;"	s	file:
+BBSoundEffect	build/bbPinball.c	/^} BBSoundEffect;$/;"	t	typeref:enum:__anon1	file:
+BBSoundEffect	src/bbPinball.c	/^} BBSoundEffect;$/;"	t	typeref:enum:__anon3	file:
+BBSoundError	include/bbPinball.h	/^} BBSoundError;$/;"	t	typeref:enum:__anon6
+BBSoundInterface	include/bbPinball.h	/^} BBSoundInterface;$/;"	t	typeref:struct:BBSoundInterface_s
+BBSoundInterface_s	include/bbPinball.h	/^typedef struct BBSoundInterface_s$/;"	s
+BBSubMesh	build/bbMesh.c	/^typedef struct BBSubMesh_s BBSubMesh;$/;"	t	typeref:struct:BBSubMesh_s	file:
+BBSubMesh	src/bbMesh.c	/^typedef struct BBSubMesh_s BBSubMesh;$/;"	t	typeref:struct:BBSubMesh_s	file:
+BBSubMesh_create	build/bbMesh.c	/^BBSubMesh* BBSubMesh_create ()$/;"	f
+BBSubMesh_create	src/bbMesh.c	/^BBSubMesh* BBSubMesh_create ()$/;"	f
+BBSubMesh_destroy	build/bbMesh.c	/^void BBSubMesh_destroy (BBSubMesh* subMesh)$/;"	f
+BBSubMesh_destroy	src/bbMesh.c	/^void BBSubMesh_destroy (BBSubMesh* subMesh)$/;"	f
+BBSubMesh_s	build/bbMesh.c	/^struct BBSubMesh_s$/;"	s	file:
+BBSubMesh_s	src/bbMesh.c	/^struct BBSubMesh_s$/;"	s	file:
+BBTEXTURE_H	include/bbTexture.h	9;"	d
+BBTGA_H	include/bbTga.h	9;"	d
+BBTexture	include/bbTexture.h	/^typedef struct BBTexture_s BBTexture;$/;"	t	typeref:struct:BBTexture_s
+BBTextureStore	include/bbTexture.h	/^typedef struct BBTextureStore_s BBTextureStore;$/;"	t	typeref:struct:BBTextureStore_s
+BBTextureStore_create	build/bbTexture.c	/^BBTextureStore* BBTextureStore_create ()$/;"	f
+BBTextureStore_create	src/bbTexture.c	/^BBTextureStore* BBTextureStore_create ()$/;"	f
+BBTextureStore_destroy	build/bbTexture.c	/^void BBTextureStore_destroy (BBTextureStore* texStore)$/;"	f
+BBTextureStore_destroy	src/bbTexture.c	/^void BBTextureStore_destroy (BBTextureStore* texStore)$/;"	f
+BBTextureStore_find	build/bbTexture.c	/^BBTexture* BBTextureStore_find (BBTextureStore* texStore, const char* name, GLenum type)$/;"	f
+BBTextureStore_find	src/bbTexture.c	/^BBTexture* BBTextureStore_find (BBTextureStore* texStore, const char* name, GLenum type)$/;"	f
+BBTextureStore_load	build/bbTexture.c	/^BBTexture* BBTextureStore_load (BBTextureStore* texStore, const char* name, int startLodLevel)$/;"	f
+BBTextureStore_load	src/bbTexture.c	/^BBTexture* BBTextureStore_load (BBTextureStore* texStore, const char* name, int startLodLevel)$/;"	f
+BBTextureStore_loadCube	build/bbTexture.c	/^BBTexture* BBTextureStore_loadCube (BBTextureStore* texStore, const char* name, int startLodLevel)$/;"	f
+BBTextureStore_loadCube	src/bbTexture.c	/^BBTexture* BBTextureStore_loadCube (BBTextureStore* texStore, const char* name, int startLodLevel)$/;"	f
+BBTextureStore_s	build/bbTexture.c	/^struct BBTextureStore_s$/;"	s	file:
+BBTextureStore_s	src/bbTexture.c	/^struct BBTextureStore_s$/;"	s	file:
+BBTexture_activate	build/bbTexture.c	/^void BBTexture_activate (BBTexture* texture, GLuint channel)$/;"	f
+BBTexture_activate	src/bbTexture.c	/^void BBTexture_activate (BBTexture* texture, GLuint channel)$/;"	f
+BBTexture_create	build/bbTexture.c	/^BBTexture* BBTexture_create (const char* name, GLsizei width, GLsizei height,$/;"	f
+BBTexture_create	src/bbTexture.c	/^BBTexture* BBTexture_create (const char* name, GLsizei width, GLsizei height,$/;"	f
+BBTexture_deactivate	build/bbTexture.c	/^void BBTexture_deactivate (BBTexture* texture, GLuint channel)$/;"	f
+BBTexture_deactivate	src/bbTexture.c	/^void BBTexture_deactivate (BBTexture* texture, GLuint channel)$/;"	f
+BBTexture_destroy	build/bbTexture.c	/^void BBTexture_destroy (BBTexture* texture)$/;"	f
+BBTexture_destroy	src/bbTexture.c	/^void BBTexture_destroy (BBTexture* texture)$/;"	f
+BBTexture_getName	build/bbTexture.c	/^const char* BBTexture_getName (BBTexture* texture)$/;"	f
+BBTexture_getName	src/bbTexture.c	/^const char* BBTexture_getName (BBTexture* texture)$/;"	f
+BBTexture_getType	build/bbTexture.c	/^GLenum BBTexture_getType (BBTexture* texture)$/;"	f
+BBTexture_getType	src/bbTexture.c	/^GLenum BBTexture_getType (BBTexture* texture)$/;"	f
+BBTexture_s	build/bbTexture.c	/^struct BBTexture_s$/;"	s	file:
+BBTexture_s	src/bbTexture.c	/^struct BBTexture_s$/;"	s	file:
+BBTga	include/bbTga.h	/^} BBTga;$/;"	t	typeref:struct:__anon4
+BBTga_destroy	build/bbTga.c	/^void BBTga_destroy (BBTga* tga)$/;"	f
+BBTga_destroy	src/bbTga.c	/^void BBTga_destroy (BBTga* tga)$/;"	f
+BBTga_load	build/bbTga.c	/^BBTga* BBTga_load (const char* filename)$/;"	f
+BBTga_load	src/bbTga.c	/^BBTga* BBTga_load (const char* filename)$/;"	f
+BBTga_save	build/bbTga.c	/^GLboolean BBTga_save (const char* filename, GLsizei width, GLsizei height, GLsizei bpp, void* data, GLboolean transformData)$/;"	f
+BBTga_save	src/bbTga.c	/^GLboolean BBTga_save (const char* filename, GLsizei width, GLsizei height, GLsizei bpp, void* data, GLboolean transformData)$/;"	f
+BB_ASSERT	include/bbPinballDefines.h	129;"	d
+BB_ASSERT	include/bbPinballDefines.h	152;"	d
+BB_BREAKPOINT	include/bbPinballDefines.h	131;"	d
+BB_BREAKPOINT	include/bbPinballDefines.h	148;"	d
+BB_COMPILER	include/bbPinballDefines.h	78;"	d
+BB_COMPILER	include/bbPinballDefines.h	89;"	d
+BB_COMPILER	include/bbPinballDefines.h	95;"	d
+BB_COMPILER_ARMCC	include/bbPinballDefines.h	72;"	d
+BB_COMPILER_GCC	include/bbPinballDefines.h	71;"	d
+BB_COMPILER_MSVC	include/bbPinballDefines.h	70;"	d
+BB_COMPILER_VER	include/bbPinballDefines.h	106;"	d
+BB_COMPILER_VER	include/bbPinballDefines.h	81;"	d
+BB_COMPILER_VER	include/bbPinballDefines.h	83;"	d
+BB_DEBUG	include/bbPinballDefines.h	100;"	d
+BB_DEVEL	include/bbPinballDefines.h	11;"	d
+BB_DISABLE_SOUNDS	include/bbPinballDefines.h	13;"	d
+BB_FOPEN	include/bbPinballDefines.h	/^static FILE* BB_FOPEN(const char* filename, char* params)$/;"	f
+BB_FOPEN	include/bbPinballDefines.h	62;"	d
+BB_INLINE	include/bbPinballDefines.h	126;"	d
+BB_INLINE	include/bbPinballDefines.h	137;"	d
+BB_INLINE	include/bbPinballDefines.h	156;"	d
+BB_INT16_MAX	include/bbPinballDefines.h	196;"	d
+BB_INT16_MIN	include/bbPinballDefines.h	200;"	d
+BB_INT32_MAX	include/bbPinballDefines.h	195;"	d
+BB_INT32_MIN	include/bbPinballDefines.h	199;"	d
+BB_INT8_MAX	include/bbPinballDefines.h	197;"	d
+BB_INT8_MIN	include/bbPinballDefines.h	201;"	d
+BB_KEYCODE_CHANGE_CAMERA	include/bbPinball.h	/^	BB_KEYCODE_CHANGE_CAMERA,$/;"	e	enum:__anon7
+BB_KEYCODE_DOWN_ARROW	include/bbPinball.h	/^	BB_KEYCODE_DOWN_ARROW,$/;"	e	enum:__anon7
+BB_KEYCODE_ESCAPE	include/bbPinball.h	/^	BB_KEYCODE_ESCAPE,$/;"	e	enum:__anon7
+BB_KEYCODE_LAUNCH_BALL	include/bbPinball.h	/^	BB_KEYCODE_LAUNCH_BALL,$/;"	e	enum:__anon7
+BB_KEYCODE_LEFT_ARROW	include/bbPinball.h	/^	BB_KEYCODE_LEFT_ARROW,$/;"	e	enum:__anon7
+BB_KEYCODE_LEFT_MOUSE	include/bbPinball.h	/^	BB_KEYCODE_LEFT_MOUSE = 1,$/;"	e	enum:__anon7
+BB_KEYCODE_LEFT_RACKET	include/bbPinball.h	/^	BB_KEYCODE_LEFT_RACKET,$/;"	e	enum:__anon7
+BB_KEYCODE_MAX	include/bbPinball.h	/^	BB_KEYCODE_MAX$/;"	e	enum:__anon7
+BB_KEYCODE_MIDDLE_MOUSE	include/bbPinball.h	/^	BB_KEYCODE_MIDDLE_MOUSE,$/;"	e	enum:__anon7
+BB_KEYCODE_NUDGE	include/bbPinball.h	/^	BB_KEYCODE_NUDGE,$/;"	e	enum:__anon7
+BB_KEYCODE_RIGHT_ARROW	include/bbPinball.h	/^	BB_KEYCODE_RIGHT_ARROW,$/;"	e	enum:__anon7
+BB_KEYCODE_RIGHT_MOUSE	include/bbPinball.h	/^	BB_KEYCODE_RIGHT_MOUSE,$/;"	e	enum:__anon7
+BB_KEYCODE_RIGHT_RACKET	include/bbPinball.h	/^	BB_KEYCODE_RIGHT_RACKET,$/;"	e	enum:__anon7
+BB_KEYCODE_START_RECORD	include/bbPinball.h	/^	BB_KEYCODE_START_RECORD,$/;"	e	enum:__anon7
+BB_KEYCODE_STOP_RECORD	include/bbPinball.h	/^	BB_KEYCODE_STOP_RECORD,$/;"	e	enum:__anon7
+BB_KEYCODE_TOGGLE_CAPTURE	include/bbPinball.h	/^	BB_KEYCODE_TOGGLE_CAPTURE,$/;"	e	enum:__anon7
+BB_KEYCODE_TOGGLE_PLAYBACK	include/bbPinball.h	/^	BB_KEYCODE_TOGGLE_PLAYBACK,$/;"	e	enum:__anon7
+BB_KEYCODE_UP_ARROW	include/bbPinball.h	/^	BB_KEYCODE_UP_ARROW,$/;"	e	enum:__anon7
+BB_KEYCODE_WHEEL_BACKWARD	include/bbPinball.h	/^	BB_KEYCODE_WHEEL_BACKWARD,$/;"	e	enum:__anon7
+BB_KEYCODE_WHEEL_FORWARD	include/bbPinball.h	/^	BB_KEYCODE_WHEEL_FORWARD,$/;"	e	enum:__anon7
+BB_MATERIAL_MAX_TEXTURES	include/bbMaterial.h	16;"	d
+BB_NULL_STATEMENT	include/bbPinballDefines.h	142;"	d
+BB_NULL_STATEMENT	include/bbPinballDefines.h	144;"	d
+BB_PI	include/bbPinballDefines.h	203;"	d
+BB_PINBALL_BALL_DOOR_MAX_ANGLE	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_DOOR_MAX_ANGLE = -BB_PI \/ 4.0f;$/;"	v
+BB_PINBALL_BALL_DOOR_MAX_ANGLE	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_DOOR_MAX_ANGLE = -BB_PI \/ 4.0f;$/;"	v
+BB_PINBALL_BALL_DOOR_POINTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_DOOR_POINTS[] = { -16.8f, 50.0f, -14.2f, 52.8f };$/;"	v
+BB_PINBALL_BALL_DOOR_POINTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_DOOR_POINTS[] = { -16.8f, 50.0f, -14.2f, 52.8f };$/;"	v
+BB_PINBALL_BALL_DOOR_POINT_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_BALL_DOOR_POINT_COUNT = 2;$/;"	v
+BB_PINBALL_BALL_DOOR_POINT_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_BALL_DOOR_POINT_COUNT = 2;$/;"	v
+BB_PINBALL_BALL_LOCK_DEPTH	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_LOCK_DEPTH = 0.5f;$/;"	v
+BB_PINBALL_BALL_LOCK_DEPTH	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_LOCK_DEPTH = 0.5f;$/;"	v
+BB_PINBALL_BALL_LOCK_DURATION	build/bbPinball.c	/^const GLint BB_PINBALL_BALL_LOCK_DURATION = 1200;$/;"	v
+BB_PINBALL_BALL_LOCK_DURATION	src/bbPinball.c	/^const GLint BB_PINBALL_BALL_LOCK_DURATION = 1200;$/;"	v
+BB_PINBALL_BALL_LOCK_POS	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_LOCK_POS[] = { -7.64f, 51.47f };$/;"	v
+BB_PINBALL_BALL_LOCK_POS	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_LOCK_POS[] = { -7.64f, 51.47f };$/;"	v
+BB_PINBALL_BALL_LOCK_RADIUS	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_LOCK_RADIUS = 1.0f;$/;"	v
+BB_PINBALL_BALL_LOCK_RADIUS	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_LOCK_RADIUS = 1.0f;$/;"	v
+BB_PINBALL_BALL_RADIUS	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_RADIUS = 0.9f;$/;"	v
+BB_PINBALL_BALL_RADIUS	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_RADIUS = 0.9f;$/;"	v
+BB_PINBALL_BALL_SLOT_Y	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_SLOT_Y = 85.0f;$/;"	v
+BB_PINBALL_BALL_SLOT_Y	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_SLOT_Y = 85.0f;$/;"	v
+BB_PINBALL_BALL_START_POS	build/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_START_POS[] = { -16.0f, 84.0f };$/;"	v
+BB_PINBALL_BALL_START_POS	src/bbPinball.c	/^const GLfloat BB_PINBALL_BALL_START_POS[] = { -16.0f, 84.0f };$/;"	v
+BB_PINBALL_BOARD_OBJECTS_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_BOARD_OBJECTS_COUNT = 9;$/;"	v
+BB_PINBALL_BOARD_OBJECTS_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_BOARD_OBJECTS_COUNT = 9;$/;"	v
+BB_PINBALL_BOARD_OBJECTS_NAMES	build/bbPinball.c	/^const char* BB_PINBALL_BOARD_OBJECTS_NAMES[] =$/;"	v
+BB_PINBALL_BOARD_OBJECTS_NAMES	src/bbPinball.c	/^const char* BB_PINBALL_BOARD_OBJECTS_NAMES[] =$/;"	v
+BB_PINBALL_BUMPER_POWER	build/bbPinball.c	/^const GLfloat BB_PINBALL_BUMPER_POWER = 0.1f;$/;"	v
+BB_PINBALL_BUMPER_POWER	src/bbPinball.c	/^const GLfloat BB_PINBALL_BUMPER_POWER = 0.1f;$/;"	v
+BB_PINBALL_CAMERA_CENTER_Y	build/bbPinball.c	/^const GLfloat BB_PINBALL_CAMERA_CENTER_Y = 55.0f;$/;"	v
+BB_PINBALL_CAMERA_CENTER_Y	src/bbPinball.c	/^const GLfloat BB_PINBALL_CAMERA_CENTER_Y = 55.0f;$/;"	v
+BB_PINBALL_CAMERA_CENTER_Z	build/bbPinball.c	/^const GLfloat BB_PINBALL_CAMERA_CENTER_Z = 50.0f;$/;"	v
+BB_PINBALL_CAMERA_CENTER_Z	src/bbPinball.c	/^const GLfloat BB_PINBALL_CAMERA_CENTER_Z = 50.0f;$/;"	v
+BB_PINBALL_CAPTURE_DIR	build/bbPinball.c	/^const char* BB_PINBALL_CAPTURE_DIR = "..\/bbPinball\/capture\/";$/;"	v
+BB_PINBALL_CAPTURE_DIR	src/bbPinball.c	/^const char* BB_PINBALL_CAPTURE_DIR = "..\/bbPinball\/capture\/";$/;"	v
+BB_PINBALL_CAPTURE_FRAME_MS	build/bbPinball.c	/^const GLint BB_PINBALL_CAPTURE_FRAME_MS = 33;$/;"	v
+BB_PINBALL_CAPTURE_FRAME_MS	src/bbPinball.c	/^const GLint BB_PINBALL_CAPTURE_FRAME_MS = 33;$/;"	v
+BB_PINBALL_COLLISION_MAP_AREA_BOTTOMRIGHT	build/bbPinball.c	/^const GLfloat BB_PINBALL_COLLISION_MAP_AREA_BOTTOMRIGHT[] = { 18.0f, 18.8f };$/;"	v
+BB_PINBALL_COLLISION_MAP_AREA_BOTTOMRIGHT	src/bbPinball.c	/^const GLfloat BB_PINBALL_COLLISION_MAP_AREA_BOTTOMRIGHT[] = { 18.0f, 18.8f };$/;"	v
+BB_PINBALL_COLLISION_MAP_AREA_TOPLEFT	build/bbPinball.c	/^const GLfloat BB_PINBALL_COLLISION_MAP_AREA_TOPLEFT[] = { -18.0f, 86.8f };$/;"	v
+BB_PINBALL_COLLISION_MAP_AREA_TOPLEFT	src/bbPinball.c	/^const GLfloat BB_PINBALL_COLLISION_MAP_AREA_TOPLEFT[] = { -18.0f, 86.8f };$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_COORDS	build/bbPinball.c	/^const GLfloat BB_PINBALL_DEBUG_TRIANGLE_COORDS[15] = { 0.0f, 0.0f, 0.0f,$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_COORDS	src/bbPinball.c	/^const GLfloat BB_PINBALL_DEBUG_TRIANGLE_COORDS[15] = { 0.0f, 0.0f, 0.0f,$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_COORD_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_DEBUG_TRIANGLE_COORD_COUNT = 15;$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_COORD_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_DEBUG_TRIANGLE_COORD_COUNT = 15;$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_INDEX_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_DEBUG_TRIANGLE_INDEX_COUNT = 6;$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_INDEX_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_DEBUG_TRIANGLE_INDEX_COUNT = 6;$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_INDICES	build/bbPinball.c	/^const GLuint BB_PINBALL_DEBUG_TRIANGLE_INDICES[6] = { 0, 1, 2, 0, 3, 4 };$/;"	v
+BB_PINBALL_DEBUG_TRIANGLE_INDICES	src/bbPinball.c	/^const GLuint BB_PINBALL_DEBUG_TRIANGLE_INDICES[6] = { 0, 1, 2, 0, 3, 4 };$/;"	v
+BB_PINBALL_DROPTARGET_COLLISION_POINTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_COLLISION_POINTS[] = {$/;"	v
+BB_PINBALL_DROPTARGET_COLLISION_POINTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_COLLISION_POINTS[] = {$/;"	v
+BB_PINBALL_DROPTARGET_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_DROPTARGET_COUNT = 16;$/;"	v
+BB_PINBALL_DROPTARGET_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_DROPTARGET_COUNT = 16;$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_DROPTARGET_GROUP_COUNT = 4;$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_DROPTARGET_GROUP_COUNT = 4;$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_RAISE_DELAY	build/bbPinball.c	/^const GLint BB_PINBALL_DROPTARGET_GROUP_RAISE_DELAY = 2000;$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_RAISE_DELAY	src/bbPinball.c	/^const GLint BB_PINBALL_DROPTARGET_GROUP_RAISE_DELAY = 2000;$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_RECTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_GROUP_RECTS[] =$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_RECTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_GROUP_RECTS[] =$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_SIZE	build/bbPinball.c	/^const GLsizei BB_PINBALL_DROPTARGET_GROUP_SIZE = 4;$/;"	v
+BB_PINBALL_DROPTARGET_GROUP_SIZE	src/bbPinball.c	/^const GLsizei BB_PINBALL_DROPTARGET_GROUP_SIZE = 4;$/;"	v
+BB_PINBALL_DROPTARGET_NAMES	build/bbPinball.c	/^const char* BB_PINBALL_DROPTARGET_NAMES[] = {$/;"	v
+BB_PINBALL_DROPTARGET_NAMES	src/bbPinball.c	/^const char* BB_PINBALL_DROPTARGET_NAMES[] = {$/;"	v
+BB_PINBALL_DROPTARGET_RAISE_TIME	build/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_RAISE_TIME = 140.0f;$/;"	v
+BB_PINBALL_DROPTARGET_RAISE_TIME	src/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_RAISE_TIME = 140.0f;$/;"	v
+BB_PINBALL_DROPTARGET_SENSITIVITY	build/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_SENSITIVITY = 0.06f;$/;"	v
+BB_PINBALL_DROPTARGET_SENSITIVITY	src/bbPinball.c	/^const GLfloat BB_PINBALL_DROPTARGET_SENSITIVITY = 0.06f;$/;"	v
+BB_PINBALL_FOV	build/bbPinball.c	/^const GLfloat BB_PINBALL_FOV = 60.0f;$/;"	v
+BB_PINBALL_FOV	src/bbPinball.c	/^const GLfloat BB_PINBALL_FOV = 60.0f;$/;"	v
+BB_PINBALL_GRAVITY_ACC	build/bbPinball.c	/^const GLfloat BB_PINBALL_GRAVITY_ACC = 0.0006f;$/;"	v
+BB_PINBALL_GRAVITY_ACC	src/bbPinball.c	/^const GLfloat BB_PINBALL_GRAVITY_ACC = 0.0006f;$/;"	v
+BB_PINBALL_HIGHSCORES_FILENAME	build/bbPinball.c	/^const char* BB_PINBALL_HIGHSCORES_FILENAME = "..\/bbPinball\/data\/highscores.txt";$/;"	v
+BB_PINBALL_HIGHSCORES_FILENAME	src/bbPinball.c	/^const char* BB_PINBALL_HIGHSCORES_FILENAME = "..\/bbPinball\/data\/highscores.txt";$/;"	v
+BB_PINBALL_HIGHSCORE_COUNT	build/bbPinball.c	73;"	d	file:
+BB_PINBALL_HIGHSCORE_COUNT	src/bbPinball.c	73;"	d	file:
+BB_PINBALL_LAUNCH_POWER	build/bbPinball.c	/^const GLfloat BB_PINBALL_LAUNCH_POWER = 0.5f;$/;"	v
+BB_PINBALL_LAUNCH_POWER	src/bbPinball.c	/^const GLfloat BB_PINBALL_LAUNCH_POWER = 0.5f;$/;"	v
+BB_PINBALL_LED_MESH_NAMES	build/bbPinball.c	/^const char* BB_PINBALL_LED_MESH_NAMES[] =$/;"	v
+BB_PINBALL_LED_MESH_NAMES	src/bbPinball.c	/^const char* BB_PINBALL_LED_MESH_NAMES[] =$/;"	v
+BB_PINBALL_LED_NUMBER_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_LED_NUMBER_COUNT = 7;$/;"	v
+BB_PINBALL_LED_NUMBER_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_LED_NUMBER_COUNT = 7;$/;"	v
+BB_PINBALL_LIGHT_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_LIGHT_COUNT = 21;$/;"	v
+BB_PINBALL_LIGHT_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_LIGHT_COUNT = 21;$/;"	v
+BB_PINBALL_LIGHT_MESH_NAMES	build/bbPinball.c	/^const char* BB_PINBALL_LIGHT_MESH_NAMES[] = {$/;"	v
+BB_PINBALL_LIGHT_MESH_NAMES	src/bbPinball.c	/^const char* BB_PINBALL_LIGHT_MESH_NAMES[] = {$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_AREA	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERLEFT_RACKET_AREA[] = { 2.5f, 78.0f, 11.0f, 65.0f };$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_AREA	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERLEFT_RACKET_AREA[] = { 2.5f, 78.0f, 11.0f, 65.0f };$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINTS[] = { 5.32f, 75.17f, 4.81f, 75.23f,$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINTS[] = { 5.32f, 75.17f, 4.81f, 75.23f,$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINT_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINT_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_LOWERLEFT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_POS	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERLEFT_RACKET_POS[] = { 8.5f, 71.8f };$/;"	v
+BB_PINBALL_LOWERLEFT_RACKET_POS	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERLEFT_RACKET_POS[] = { 8.5f, 71.8f };$/;"	v
+BB_PINBALL_LOWERRACKET_MAX_ANGLE	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRACKET_MAX_ANGLE = BB_PI * 0.33f;$/;"	v
+BB_PINBALL_LOWERRACKET_MAX_ANGLE	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRACKET_MAX_ANGLE = BB_PI * 0.33f;$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_AREA	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRIGHT_RACKET_AREA[] = { -8.0f, 77.0f, 1.0f, 65.0f };$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_AREA	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRIGHT_RACKET_AREA[] = { -8.0f, 77.0f, 1.0f, 65.0f };$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINTS[] = { -1.25f, 74.39f, -1.17f, 74.8f,$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINTS[] = { -1.25f, 74.39f, -1.17f, 74.8f,$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINT_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINT_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_LOWERRIGHT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_POS	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRIGHT_RACKET_POS[] = { -5.3f, 71.7f };$/;"	v
+BB_PINBALL_LOWERRIGHT_RACKET_POS	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWERRIGHT_RACKET_POS[] = { -5.3f, 71.7f };$/;"	v
+BB_PINBALL_LOWER_RACKET_FACING_DIR	build/bbPinball.c	/^const GLfloat BB_PINBALL_LOWER_RACKET_FACING_DIR = BB_PI * 1.7f;$/;"	v
+BB_PINBALL_LOWER_RACKET_FACING_DIR	src/bbPinball.c	/^const GLfloat BB_PINBALL_LOWER_RACKET_FACING_DIR = BB_PI * 1.7f;$/;"	v
+BB_PINBALL_MAX_BALL_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_MAX_BALL_COUNT = 4;$/;"	v
+BB_PINBALL_MAX_BALL_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_MAX_BALL_COUNT = 4;$/;"	v
+BB_PINBALL_MAX_PLAYERS	build/bbPinball.c	72;"	d	file:
+BB_PINBALL_MAX_PLAYERS	src/bbPinball.c	72;"	d	file:
+BB_PINBALL_MESHSTORE2_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_MESHSTORE2_COUNT = 7;$/;"	v
+BB_PINBALL_MESHSTORE2_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_MESHSTORE2_COUNT = 7;$/;"	v
+BB_PINBALL_MESHSTORE2_NAMES	build/bbPinball.c	/^const char* BB_PINBALL_MESHSTORE2_NAMES[] =$/;"	v
+BB_PINBALL_MESHSTORE2_NAMES	src/bbPinball.c	/^const char* BB_PINBALL_MESHSTORE2_NAMES[] =$/;"	v
+BB_PINBALL_MIDDLEBUMPER_AREAS	build/bbPinball.c	/^const GLfloat BB_PINBALL_MIDDLEBUMPER_AREAS[] = { -2.609f, 50.25f, 5.5f, 44.0f };$/;"	v
+BB_PINBALL_MIDDLEBUMPER_AREAS	src/bbPinball.c	/^const GLfloat BB_PINBALL_MIDDLEBUMPER_AREAS[] = { -2.609f, 50.25f, 5.5f, 44.0f };$/;"	v
+BB_PINBALL_MIDDLEBUMPER_AREA_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_MIDDLEBUMPER_AREA_COUNT = 1;$/;"	v
+BB_PINBALL_MIDDLEBUMPER_AREA_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_MIDDLEBUMPER_AREA_COUNT = 1;$/;"	v
+BB_PINBALL_OUTER_OBJECTS_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_OUTER_OBJECTS_COUNT = sizeof(BB_PINBALL_OUTER_OBJECTS_NAMES)\/sizeof(BB_PINBALL_OUTER_OBJECTS_NAMES[0]);$/;"	v
+BB_PINBALL_OUTER_OBJECTS_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_OUTER_OBJECTS_COUNT = sizeof(BB_PINBALL_OUTER_OBJECTS_NAMES)\/sizeof(BB_PINBALL_OUTER_OBJECTS_NAMES[0]);$/;"	v
+BB_PINBALL_OUTER_OBJECTS_NAMES	build/bbPinball.c	/^const char* BB_PINBALL_OUTER_OBJECTS_NAMES[] = {$/;"	v
+BB_PINBALL_OUTER_OBJECTS_NAMES	src/bbPinball.c	/^const char* BB_PINBALL_OUTER_OBJECTS_NAMES[] = {$/;"	v
+BB_PINBALL_RACKET_POWER_MULTIPLIER	build/bbPinball.c	/^const GLfloat BB_PINBALL_RACKET_POWER_MULTIPLIER = 1.2f;$/;"	v
+BB_PINBALL_RACKET_POWER_MULTIPLIER	src/bbPinball.c	/^const GLfloat BB_PINBALL_RACKET_POWER_MULTIPLIER = 1.2f;$/;"	v
+BB_PINBALL_RACKET_TURN_SPEED	build/bbPinball.c	/^const GLfloat BB_PINBALL_RACKET_TURN_SPEED = 0.1f;$/;"	v
+BB_PINBALL_RACKET_TURN_SPEED	src/bbPinball.c	/^const GLfloat BB_PINBALL_RACKET_TURN_SPEED = 0.1f;$/;"	v
+BB_PINBALL_RECORD_CHUNK_FRAME_COUNT	build/bbPinball.c	338;"	d	file:
+BB_PINBALL_RECORD_CHUNK_FRAME_COUNT	src/bbPinball.c	338;"	d	file:
+BB_PINBALL_RECORD_FILENAME	build/bbPinball.c	/^const char* BB_PINBALL_RECORD_FILENAME = "..\/bbPinball\/data\/record.dat";$/;"	v
+BB_PINBALL_RECORD_FILENAME	src/bbPinball.c	/^const char* BB_PINBALL_RECORD_FILENAME = "..\/bbPinball\/data\/record.dat";$/;"	v
+BB_PINBALL_RECORD_VALUE_COUNT	build/bbPinball.c	337;"	d	file:
+BB_PINBALL_RECORD_VALUE_COUNT	src/bbPinball.c	337;"	d	file:
+BB_PINBALL_SCORE_BUMPER_MIDDLE	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_BUMPER_MIDDLE = 200;$/;"	v
+BB_PINBALL_SCORE_BUMPER_MIDDLE	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_BUMPER_MIDDLE = 200;$/;"	v
+BB_PINBALL_SCORE_BUMPER_SIDES	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_BUMPER_SIDES = 100;$/;"	v
+BB_PINBALL_SCORE_BUMPER_SIDES	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_BUMPER_SIDES = 100;$/;"	v
+BB_PINBALL_SCORE_DROPTARGET	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_DROPTARGET = 100;$/;"	v
+BB_PINBALL_SCORE_DROPTARGET	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_DROPTARGET = 100;$/;"	v
+BB_PINBALL_SCORE_LEFT_RAMP	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_LEFT_RAMP = 300;$/;"	v
+BB_PINBALL_SCORE_LEFT_RAMP	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_LEFT_RAMP = 300;$/;"	v
+BB_PINBALL_SCORE_LIGHT_SWITCH	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_LIGHT_SWITCH = 150;$/;"	v
+BB_PINBALL_SCORE_LIGHT_SWITCH	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_LIGHT_SWITCH = 150;$/;"	v
+BB_PINBALL_SCORE_LOCK	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_LOCK = 400;$/;"	v
+BB_PINBALL_SCORE_LOCK	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_LOCK = 400;$/;"	v
+BB_PINBALL_SCORE_RIGHT_RAMP	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_RIGHT_RAMP = 300;$/;"	v
+BB_PINBALL_SCORE_RIGHT_RAMP	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_RIGHT_RAMP = 300;$/;"	v
+BB_PINBALL_SCORE_TOUCHIE	build/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_TOUCHIE = 300;$/;"	v
+BB_PINBALL_SCORE_TOUCHIE	src/bbPinball.c	/^const GLuint BB_PINBALL_SCORE_TOUCHIE = 300;$/;"	v
+BB_PINBALL_SENSOR_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_SENSOR_COUNT = 13;$/;"	v
+BB_PINBALL_SENSOR_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_SENSOR_COUNT = 13;$/;"	v
+BB_PINBALL_SENSOR_RECTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_SENSOR_RECTS[] = {$/;"	v
+BB_PINBALL_SENSOR_RECTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_SENSOR_RECTS[] = {$/;"	v
+BB_PINBALL_SIDEBUMPER_AREAS	build/bbPinball.c	/^const GLfloat BB_PINBALL_SIDEBUMPER_AREAS[] = { $/;"	v
+BB_PINBALL_SIDEBUMPER_AREAS	src/bbPinball.c	/^const GLfloat BB_PINBALL_SIDEBUMPER_AREAS[] = { $/;"	v
+BB_PINBALL_SIDEBUMPER_AREA_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_SIDEBUMPER_AREA_COUNT = 9;$/;"	v
+BB_PINBALL_SIDEBUMPER_AREA_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_SIDEBUMPER_AREA_COUNT = 9;$/;"	v
+BB_PINBALL_TABLE_SURFACE_HEIGHT	build/bbPinball.c	/^const GLfloat BB_PINBALL_TABLE_SURFACE_HEIGHT = 51.202f + 0.05f;$/;"	v
+BB_PINBALL_TABLE_SURFACE_HEIGHT	src/bbPinball.c	/^const GLfloat BB_PINBALL_TABLE_SURFACE_HEIGHT = 51.202f + 0.05f;$/;"	v
+BB_PINBALL_TABLE_SURFACE_REFLECTION_HEIGHT	build/bbPinball.c	/^const GLfloat BB_PINBALL_TABLE_SURFACE_REFLECTION_HEIGHT = 51.202f;$/;"	v
+BB_PINBALL_TABLE_SURFACE_REFLECTION_HEIGHT	src/bbPinball.c	/^const GLfloat BB_PINBALL_TABLE_SURFACE_REFLECTION_HEIGHT = 51.202f;$/;"	v
+BB_PINBALL_TOUCHIE_MAX_MOVE	build/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_MAX_MOVE = 0.6f;$/;"	v
+BB_PINBALL_TOUCHIE_MAX_MOVE	src/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_MAX_MOVE = 0.6f;$/;"	v
+BB_PINBALL_TOUCHIE_MESH_NAME	build/bbPinball.c	/^const char* BB_PINBALL_TOUCHIE_MESH_NAME = "Touchie";$/;"	v
+BB_PINBALL_TOUCHIE_MESH_NAME	src/bbPinball.c	/^const char* BB_PINBALL_TOUCHIE_MESH_NAME = "Touchie";$/;"	v
+BB_PINBALL_TOUCHIE_MOVE_ANGLE	build/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_MOVE_ANGLE = -BB_PI \/ 2.0f;$/;"	v
+BB_PINBALL_TOUCHIE_MOVE_ANGLE	src/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_MOVE_ANGLE = -BB_PI \/ 2.0f;$/;"	v
+BB_PINBALL_TOUCHIE_MOVE_SPEED	build/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_MOVE_SPEED = 15.0f;$/;"	v
+BB_PINBALL_TOUCHIE_MOVE_SPEED	src/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_MOVE_SPEED = 15.0f;$/;"	v
+BB_PINBALL_TOUCHIE_POS	build/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_POS[] = { 1.56f, 57.36f };$/;"	v
+BB_PINBALL_TOUCHIE_POS	src/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_POS[] = { 1.56f, 57.36f };$/;"	v
+BB_PINBALL_TOUCHIE_RADIUS	build/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_RADIUS = 1.0f;$/;"	v
+BB_PINBALL_TOUCHIE_RADIUS	src/bbPinball.c	/^const GLfloat BB_PINBALL_TOUCHIE_RADIUS = 1.0f;$/;"	v
+BB_PINBALL_UPDATE_FREQ	build/bbPinball.c	/^const GLint BB_PINBALL_UPDATE_FREQ = 5;$/;"	v
+BB_PINBALL_UPDATE_FREQ	src/bbPinball.c	/^const GLint BB_PINBALL_UPDATE_FREQ = 5;$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_AREA	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERLEFT_RACKET_AREA[] = { 5.75f, 50.18f, 14.10f, 38.27f };$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_AREA	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERLEFT_RACKET_AREA[] = { 5.75f, 50.18f, 14.10f, 38.27f };$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINTS[] = { 9.12f, 48.03f, 8.65f, 48.17f,$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINTS[] = { 9.12f, 48.03f, 8.65f, 48.17f,$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINT_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINT_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_UPPERLEFT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_POS	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERLEFT_RACKET_POS[] = { 11.6f, 44.5f };$/;"	v
+BB_PINBALL_UPPERLEFT_RACKET_POS	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERLEFT_RACKET_POS[] = { 11.6f, 44.5f };$/;"	v
+BB_PINBALL_UPPERRACKET_MAX_ANGLE	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRACKET_MAX_ANGLE = BB_PI * 0.25f;$/;"	v
+BB_PINBALL_UPPERRACKET_MAX_ANGLE	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRACKET_MAX_ANGLE = BB_PI * 0.25f;$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_AREA	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRIGHT_RACKET_AREA[] = { -11.0f, 50.0f, -3.25f, 41.4f };$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_AREA	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRIGHT_RACKET_AREA[] = { -11.0f, 50.0f, -3.25f, 41.4f };$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINTS	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINTS[] = { -5.228f, 47.303f, -5.132f, 47.762f,$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINTS	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINTS[] = { -5.228f, 47.303f, -5.132f, 47.762f,$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINT_COUNT	build/bbPinball.c	/^const GLsizei BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINT_COUNT	src/bbPinball.c	/^const GLsizei BB_PINBALL_UPPERRIGHT_RACKET_COLLISION_POINT_COUNT = 8;$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_POS	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRIGHT_RACKET_POS[] = { -8.5f, 44.5f };$/;"	v
+BB_PINBALL_UPPERRIGHT_RACKET_POS	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPERRIGHT_RACKET_POS[] = { -8.5f, 44.5f };$/;"	v
+BB_PINBALL_UPPER_LIGHTS_TURN_OFF_DELAY	build/bbPinball.c	/^const GLint BB_PINBALL_UPPER_LIGHTS_TURN_OFF_DELAY = 500;$/;"	v
+BB_PINBALL_UPPER_LIGHTS_TURN_OFF_DELAY	src/bbPinball.c	/^const GLint BB_PINBALL_UPPER_LIGHTS_TURN_OFF_DELAY = 500;$/;"	v
+BB_PINBALL_UPPER_RACKET_FACING_DIR	build/bbPinball.c	/^const GLfloat BB_PINBALL_UPPER_RACKET_FACING_DIR = BB_PI * 1.7f;$/;"	v
+BB_PINBALL_UPPER_RACKET_FACING_DIR	src/bbPinball.c	/^const GLfloat BB_PINBALL_UPPER_RACKET_FACING_DIR = BB_PI * 1.7f;$/;"	v
+BB_PLATFORM	include/bbPinballDefines.h	93;"	d
+BB_PLATFORM	include/bbPinballDefines.h	96;"	d
+BB_PLATFORM_ARM	include/bbPinballDefines.h	75;"	d
+BB_PLATFORM_WIN32	include/bbPinballDefines.h	74;"	d
+BB_SFX_BALL_LAUNCH	build/bbPinball.c	/^    BB_SFX_BALL_LAUNCH,$/;"	e	enum:__anon1	file:
+BB_SFX_BALL_LAUNCH	src/bbPinball.c	/^    BB_SFX_BALL_LAUNCH,$/;"	e	enum:__anon3	file:
+BB_SFX_BALL_LOCK	build/bbPinball.c	/^    BB_SFX_BALL_LOCK,$/;"	e	enum:__anon1	file:
+BB_SFX_BALL_LOCK	src/bbPinball.c	/^    BB_SFX_BALL_LOCK,$/;"	e	enum:__anon3	file:
+BB_SFX_BALL_RELEASE	build/bbPinball.c	/^    BB_SFX_BALL_RELEASE,$/;"	e	enum:__anon1	file:
+BB_SFX_BALL_RELEASE	src/bbPinball.c	/^    BB_SFX_BALL_RELEASE,$/;"	e	enum:__anon3	file:
+BB_SFX_BUMPER1	build/bbPinball.c	/^    BB_SFX_BUMPER1,$/;"	e	enum:__anon1	file:
+BB_SFX_BUMPER1	src/bbPinball.c	/^    BB_SFX_BUMPER1,$/;"	e	enum:__anon3	file:
+BB_SFX_BUMPER2	build/bbPinball.c	/^    BB_SFX_BUMPER2,$/;"	e	enum:__anon1	file:
+BB_SFX_BUMPER2	src/bbPinball.c	/^    BB_SFX_BUMPER2,$/;"	e	enum:__anon3	file:
+BB_SFX_BUMPER3	build/bbPinball.c	/^    BB_SFX_BUMPER3,$/;"	e	enum:__anon1	file:
+BB_SFX_BUMPER3	src/bbPinball.c	/^    BB_SFX_BUMPER3,$/;"	e	enum:__anon3	file:
+BB_SFX_BUMPER4	build/bbPinball.c	/^    BB_SFX_BUMPER4,$/;"	e	enum:__anon1	file:
+BB_SFX_BUMPER4	src/bbPinball.c	/^    BB_SFX_BUMPER4,$/;"	e	enum:__anon3	file:
+BB_SFX_DROP1	build/bbPinball.c	/^    BB_SFX_DROP1,$/;"	e	enum:__anon1	file:
+BB_SFX_DROP1	src/bbPinball.c	/^    BB_SFX_DROP1,$/;"	e	enum:__anon3	file:
+BB_SFX_DROPGROUPUP	build/bbPinball.c	/^    BB_SFX_DROPGROUPUP,$/;"	e	enum:__anon1	file:
+BB_SFX_DROPGROUPUP	src/bbPinball.c	/^    BB_SFX_DROPGROUPUP,$/;"	e	enum:__anon3	file:
+BB_SFX_ELECTRIC1	build/bbPinball.c	/^    BB_SFX_ELECTRIC1,$/;"	e	enum:__anon1	file:
+BB_SFX_ELECTRIC1	src/bbPinball.c	/^    BB_SFX_ELECTRIC1,$/;"	e	enum:__anon3	file:
+BB_SFX_ELECTRIC2	build/bbPinball.c	/^    BB_SFX_ELECTRIC2,$/;"	e	enum:__anon1	file:
+BB_SFX_ELECTRIC2	src/bbPinball.c	/^    BB_SFX_ELECTRIC2,$/;"	e	enum:__anon3	file:
+BB_SFX_FILENAMES	build/bbPinball.c	/^const char* const BB_SFX_FILENAMES[] =$/;"	v
+BB_SFX_FILENAMES	src/bbPinball.c	/^const char* const BB_SFX_FILENAMES[] =$/;"	v
+BB_SFX_MAX	build/bbPinball.c	/^    BB_SFX_MAX$/;"	e	enum:__anon1	file:
+BB_SFX_MAX	src/bbPinball.c	/^    BB_SFX_MAX$/;"	e	enum:__anon3	file:
+BB_SFX_MENU_DOWN	build/bbPinball.c	/^    BB_SFX_MENU_DOWN,$/;"	e	enum:__anon1	file:
+BB_SFX_MENU_DOWN	src/bbPinball.c	/^    BB_SFX_MENU_DOWN,$/;"	e	enum:__anon3	file:
+BB_SFX_MENU_SELECT	build/bbPinball.c	/^    BB_SFX_MENU_SELECT,$/;"	e	enum:__anon1	file:
+BB_SFX_MENU_SELECT	src/bbPinball.c	/^    BB_SFX_MENU_SELECT,$/;"	e	enum:__anon3	file:
+BB_SFX_MENU_UP	build/bbPinball.c	/^    BB_SFX_MENU_UP = 1,$/;"	e	enum:__anon1	file:
+BB_SFX_MENU_UP	src/bbPinball.c	/^    BB_SFX_MENU_UP = 1,$/;"	e	enum:__anon3	file:
+BB_SFX_MUSIC	build/bbPinball.c	/^    BB_SFX_MUSIC,$/;"	e	enum:__anon1	file:
+BB_SFX_MUSIC	src/bbPinball.c	/^    BB_SFX_MUSIC,$/;"	e	enum:__anon3	file:
+BB_SFX_RACKET1	build/bbPinball.c	/^    BB_SFX_RACKET1,$/;"	e	enum:__anon1	file:
+BB_SFX_RACKET1	src/bbPinball.c	/^    BB_SFX_RACKET1,$/;"	e	enum:__anon3	file:
+BB_SFX_RACKET1B	build/bbPinball.c	/^    BB_SFX_RACKET1B,$/;"	e	enum:__anon1	file:
+BB_SFX_RACKET1B	src/bbPinball.c	/^    BB_SFX_RACKET1B,$/;"	e	enum:__anon3	file:
+BB_SFX_RACKET2	build/bbPinball.c	/^    BB_SFX_RACKET2,$/;"	e	enum:__anon1	file:
+BB_SFX_RACKET2	src/bbPinball.c	/^    BB_SFX_RACKET2,$/;"	e	enum:__anon3	file:
+BB_SFX_RACKET2B	build/bbPinball.c	/^    BB_SFX_RACKET2B,$/;"	e	enum:__anon1	file:
+BB_SFX_RACKET2B	src/bbPinball.c	/^    BB_SFX_RACKET2B,$/;"	e	enum:__anon3	file:
+BB_SFX_TOUCHIE	build/bbPinball.c	/^    BB_SFX_TOUCHIE,$/;"	e	enum:__anon1	file:
+BB_SFX_TOUCHIE	src/bbPinball.c	/^    BB_SFX_TOUCHIE,$/;"	e	enum:__anon3	file:
+BB_SOUND_ERR_FILE_NOT_FOUND	include/bbPinball.h	/^	BB_SOUND_ERR_FILE_NOT_FOUND,$/;"	e	enum:__anon6
+BB_SOUND_ERR_INVALID	include/bbPinball.h	/^	BB_SOUND_ERR_INVALID = 1,$/;"	e	enum:__anon6
+BB_SOUND_ERR_MAX	include/bbPinball.h	/^	BB_SOUND_ERR_MAX$/;"	e	enum:__anon6
+BB_SOUND_ERR_OUT_OF_MEMORY	include/bbPinball.h	/^	BB_SOUND_ERR_OUT_OF_MEMORY,$/;"	e	enum:__anon6
+BB_SOUND_NONE	include/bbPinball.h	24;"	d
+BB_UINT16_MAX	include/bbPinballDefines.h	192;"	d
+BB_UINT32_MAX	include/bbPinballDefines.h	191;"	d
+BB_UINT8_MAX	include/bbPinballDefines.h	193;"	d
+BB_UNREF	include/bbPinballDefines.h	140;"	d
+BB_VERTEX_DECLARATION_NORMAL	include/bbMesh.h	/^	BB_VERTEX_DECLARATION_NORMAL = 2,$/;"	e	enum:__anon8
+BB_VERTEX_DECLARATION_POSITION	include/bbMesh.h	/^	BB_VERTEX_DECLARATION_POSITION = 1,$/;"	e	enum:__anon8
+BB_VERTEX_DECLARATION_TEX1	include/bbMesh.h	/^	BB_VERTEX_DECLARATION_TEX1 = 4,$/;"	e	enum:__anon8
+BB_VERTEX_DECLARATION_TEX2	include/bbMesh.h	/^	BB_VERTEX_DECLARATION_TEX2 = 8$/;"	e	enum:__anon8
+BBint64	include/bbPinballDefines.h	/^	typedef signed __int64		BBint64;$/;"	t
+BBint64	include/bbPinballDefines.h	/^	typedef signed long long	BBint64;$/;"	t
+BBuint64	include/bbPinballDefines.h	/^	typedef unsigned __int64	BBuint64;$/;"	t
+BBuint64	include/bbPinballDefines.h	/^	typedef unsigned long long	BBuint64;$/;"	t
+CALIB	src/bbVersatileMain.c	269;"	d	file:
+CC	mak/Makefile	/^CC := $(CROSS_COMPILE)gcc$/;"	m
+CC	mak/Makefile	/^CC = $(CROSS_COMPILE)gcc$/;"	m
+CROSS_COMPILE	mak/Makefile	/^CROSS_COMPILE := arm-none-linux-gnueabi-$/;"	m
+Config	include/bbPinballDefines.h	/^} Config;$/;"	t	typeref:struct:__anon5
+CounterInfo	src/bbWinMain_perfcount.c	/^} CounterInfo;$/;"	t	typeref:struct:__anon2	file:
+CreateRenderingSurface	src/SurfaceAdopter.c	/^RenderingSurface* CreateRenderingSurface (HWND hWnd, int width, int height)$/;"	f
+CreateRenderingSurface	src/SurfaceAdopter.c	/^RenderingSurface* CreateRenderingSurface(HWND hWnd, int width, int height)$/;"	f
+DXSound	src/bbWinMain.c	/^} DXSound;$/;"	t	typeref:struct:DXSound_s	file:
+DXSound	src/bbWinMain_perfcount.c	/^} DXSound;$/;"	t	typeref:struct:DXSound_s	file:
+DXSound_create	src/bbWinMain.c	/^DXSound* DXSound_create (const char* filename)$/;"	f
+DXSound_create	src/bbWinMain_perfcount.c	/^DXSound* DXSound_create (const char* filename)$/;"	f
+DXSound_destroy	src/bbWinMain.c	/^void DXSound_destroy (DXSound* sound)$/;"	f
+DXSound_destroy	src/bbWinMain_perfcount.c	/^void DXSound_destroy (DXSound* sound)$/;"	f
+DXSound_fillBufferWithSound	src/bbWinMain.c	/^GLboolean DXSound_fillBufferWithSound (DXSound* sound, GLboolean bRepeatWavIfBufferLarger)$/;"	f
+DXSound_fillBufferWithSound	src/bbWinMain_perfcount.c	/^GLboolean DXSound_fillBufferWithSound (DXSound* sound, GLboolean bRepeatWavIfBufferLarger)$/;"	f
+DXSound_load	src/bbWinMain.c	/^GLboolean DXSound_load (DXSound* sound)$/;"	f
+DXSound_load	src/bbWinMain_perfcount.c	/^GLboolean DXSound_load (DXSound* sound)$/;"	f
+DXSound_play	src/bbWinMain.c	/^GLboolean DXSound_play (DXSound* sound, GLfloat volume, GLboolean repeat)$/;"	f
+DXSound_play	src/bbWinMain_perfcount.c	/^GLboolean DXSound_play (DXSound* sound, GLfloat volume, GLboolean repeat)$/;"	f
+DXSound_restoreBuffer	src/bbWinMain.c	/^GLboolean DXSound_restoreBuffer (DXSound* sound, GLboolean* pbWasRestored)$/;"	f
+DXSound_restoreBuffer	src/bbWinMain_perfcount.c	/^GLboolean DXSound_restoreBuffer (DXSound* sound, GLboolean* pbWasRestored)$/;"	f
+DXSound_s	src/bbWinMain.c	/^typedef struct DXSound_s$/;"	s	file:
+DXSound_s	src/bbWinMain_perfcount.c	/^typedef struct DXSound_s$/;"	s	file:
+DXSound_stop	src/bbWinMain.c	/^GLboolean DXSound_stop (DXSound* sound)$/;"	f
+DXSound_stop	src/bbWinMain_perfcount.c	/^GLboolean DXSound_stop (DXSound* sound)$/;"	f
+E32Main	src/bbSymbianMain.cpp	/^TInt E32Main()$/;"	f
+EGLERR	include/bbPinballDefines.h	229;"	d
+ENABLE_FPS_COUNTER	build/bbPinball.c	24;"	d	file:
+ENABLE_FPS_COUNTER	src/bbPinball.c	24;"	d	file:
+ES20_VERSION	src/bbVersatileMain.c	37;"	d	file:
+FlipSurface	src/SurfaceAdopter.c	/^void FlipSurface(RenderingSurface* pRenderingSurface)$/;"	f
+FreeSoundFunc	include/bbPinball.h	/^typedef void	(*FreeSoundFunc)	(GLuint sound);$/;"	t
+GLERR	include/bbPinballDefines.h	252;"	d
+GL_GLEXT_PROTOTYPES	src/bbWinMain.c	6;"	d	file:
+GL_GLEXT_PROTOTYPES	src/bbWinMain_perfcount.c	6;"	d	file:
+GetDisplayType	src/SurfaceAdopter.c	/^EGLNativeDisplayType GetDisplayType ()$/;"	f
+GetSurface	src/SurfaceAdopter.c	/^unsigned int GetSurface(RenderingSurface* pRenderingSurface)$/;"	f
+GetTimeFunc	include/bbPinball.h	/^typedef	GLint (*GetTimeFunc)	();$/;"	t
+HandleWindowMessages	src/SurfaceAdopter.c	/^void HandleWindowMessages(HWND	hWnd, UINT	uMsg, WPARAM	wParam, LPARAM	lParam, RenderingSurface* pRenderingSurface)$/;"	f
+HandleWindowMessages	src/SurfaceAdopter.c	/^void HandleWindowMessages(HWND	hWnd, UINT	uMsg, WPARAM	wParam, LPARAM	lParam, RenderingSurface* pSurface)$/;"	f
+KHRONOS_APIATTRIBUTES	include/KHR/khrplatform.h	127;"	d
+KHRONOS_APIATTRIBUTES	include/KHR/khrplatform.h	129;"	d
+KHRONOS_APICALL	include/KHR/khrplatform.h	101;"	d
+KHRONOS_APICALL	include/KHR/khrplatform.h	103;"	d
+KHRONOS_APICALL	include/KHR/khrplatform.h	105;"	d
+KHRONOS_APIENTRY	include/KHR/khrplatform.h	116;"	d
+KHRONOS_APIENTRY	include/KHR/khrplatform.h	118;"	d
+KHRONOS_BOOLEAN_ENUM_FORCE_SIZE	include/KHR/khrplatform.h	/^    KHRONOS_BOOLEAN_ENUM_FORCE_SIZE = KHRONOS_MAX_ENUM$/;"	e	enum:__anon9
+KHRONOS_FALSE	include/KHR/khrplatform.h	/^    KHRONOS_FALSE = 0,$/;"	e	enum:__anon9
+KHRONOS_MAX_ENUM	include/KHR/khrplatform.h	254;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	147;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	160;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	172;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	189;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	199;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	212;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	146;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	159;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	171;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	188;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	198;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	211;"	d
+KHRONOS_TRUE	include/KHR/khrplatform.h	/^    KHRONOS_TRUE  = 1,$/;"	e	enum:__anon9
+LoadSoundFunc	include/bbPinball.h	/^typedef GLuint	(*LoadSoundFunc)	(const char* filename);$/;"	t
+LogErrorMesssage	src/SurfaceAdopter.c	/^void LogErrorMesssage(HRESULT hErrValue)$/;"	f
+MAX_MIPMAPS	build/bbTexture.c	28;"	d	file:
+MAX_MIPMAPS	src/bbTexture.c	28;"	d	file:
+MAX_RESOLUTIONS	src/bbWinMain.c	53;"	d	file:
+MAX_RESOLUTIONS	src/bbWinMain_perfcount.c	50;"	d	file:
+MAX_SOUNDS	src/bbWinMain.c	320;"	d	file:
+MAX_SOUNDS	src/bbWinMain_perfcount.c	312;"	d	file:
+OBJS	mak/Makefile	/^OBJS = $(patsubst %.c,%.o,$(SRC))$/;"	m
+PF_TABLE_SIZE	src/SurfaceAdopter.c	15;"	d	file:
+PRINTF_FPS	build/bbPinball.c	25;"	d	file:
+PRINTF_FPS	src/bbPinball.c	25;"	d	file:
+PRINT_PERF	build/bbPinball.c	2143;"	d	file:
+PRINT_PERF	build/bbPinball.c	2148;"	d	file:
+PRINT_PERF	src/bbPinball.c	2143;"	d	file:
+PRINT_PERF	src/bbPinball.c	2148;"	d	file:
+PlaySoundFunc	include/bbPinball.h	/^typedef GLuint	(*PlaySoundFunc)	(GLuint sound, GLfloat volume, GLboolean repeat);$/;"	t
+ROOTFS	mak/Makefile	/^ROOTFS := \/mnt\/nfs_root\/imx61_rootfs$/;"	m
+ReleaseAllSurfaces	src/SurfaceAdopter.c	/^void ReleaseAllSurfaces(RenderingSurface* pRenderingSurface)$/;"	f
+RenderingSurface	src/SurfaceAdopter.h	/^typedef struct RenderingSurface_s RenderingSurface;$/;"	t	typeref:struct:RenderingSurface_s
+RenderingSurface_s	src/SurfaceAdopter.h	/^	struct RenderingSurface_s$/;"	s
+RestoreAllSurfaces	src/SurfaceAdopter.c	/^HRESULT RestoreAllSurfaces(HWND	hWnd, RenderingSurface* pRenderingSurface)$/;"	f
+SAMPLE_WINDOW_HEIGHT	src/bbVersatileMain.c	43;"	d	file:
+SAMPLE_WINDOW_WIDTH	src/bbVersatileMain.c	42;"	d	file:
+SMALL_FONT_CHAR_HEIGHT	build/bbPinball.c	/^const GLfloat SMALL_FONT_CHAR_HEIGHT = 32.0f;$/;"	v
+SMALL_FONT_CHAR_HEIGHT	src/bbPinball.c	/^const GLfloat SMALL_FONT_CHAR_HEIGHT = 32.0f;$/;"	v
+SMALL_FONT_CHAR_WIDTH	build/bbPinball.c	/^const GLfloat SMALL_FONT_CHAR_WIDTH = 24.0f;$/;"	v
+SMALL_FONT_CHAR_WIDTH	src/bbPinball.c	/^const GLfloat SMALL_FONT_CHAR_WIDTH = 24.0f;$/;"	v
+SMALL_FONT_SCREEN_SIZE_X	build/bbPinball.c	/^const GLfloat SMALL_FONT_SCREEN_SIZE_X = 24.0f \/ 1024.0f * 1.1f;$/;"	v
+SMALL_FONT_SCREEN_SIZE_X	src/bbPinball.c	/^const GLfloat SMALL_FONT_SCREEN_SIZE_X = 24.0f \/ 1024.0f * 1.1f;$/;"	v
+SMALL_FONT_SCREEN_SIZE_Y	build/bbPinball.c	/^const GLfloat SMALL_FONT_SCREEN_SIZE_Y = 32.0f \/ 768.0f * 1.1f;$/;"	v
+SMALL_FONT_SCREEN_SIZE_Y	src/bbPinball.c	/^const GLfloat SMALL_FONT_SCREEN_SIZE_Y = 32.0f \/ 768.0f * 1.1f;$/;"	v
+SMALL_FONT_TEXTURE_HEIGHT	build/bbPinball.c	/^const GLfloat SMALL_FONT_TEXTURE_HEIGHT = 32.0f;$/;"	v
+SMALL_FONT_TEXTURE_HEIGHT	src/bbPinball.c	/^const GLfloat SMALL_FONT_TEXTURE_HEIGHT = 32.0f;$/;"	v
+SMALL_FONT_TEXTURE_WIDTH	build/bbPinball.c	/^const GLfloat SMALL_FONT_TEXTURE_WIDTH = 1024.0f;$/;"	v
+SMALL_FONT_TEXTURE_WIDTH	src/bbPinball.c	/^const GLfloat SMALL_FONT_TEXTURE_WIDTH = 1024.0f;$/;"	v
+SRC	mak/Makefile	/^SRC = $(wildcard ..\/build\/*.c)$/;"	m
+StopSoundFunc	include/bbPinball.h	/^typedef GLuint	(*StopSoundFunc)	(GLuint sound);$/;"	t
+TARGET	mak/Makefile	/^TARGET = ..\/bbPinball$/;"	m
+TOP_GLASS_Y	build/bbPinball.c	/^const GLfloat TOP_GLASS_Y = 55.28f;$/;"	v
+TOP_GLASS_Y	src/bbPinball.c	/^const GLfloat TOP_GLASS_Y = 55.28f;$/;"	v
+UniformSetupFunc	include/bbMesh.h	/^typedef void (*UniformSetupFunc)		(void* userPtr, GLuint program, BBPinballUniformSetupCache* cache);$/;"	t
+UpdateSurface	src/SurfaceAdopter.c	/^int UpdateSurface(HWND hWnd, RenderingSurface* pRenderingSurface)$/;"	f
+WIN32_LEAN_AND_MEAN	src/bbWinMain.c	23;"	d	file:
+WIN32_LEAN_AND_MEAN	src/bbWinMain_perfcount.c	23;"	d	file:
+WM_MOUSEWHEEL	src/bbWinMain.c	35;"	d	file:
+WM_MOUSEWHEEL	src/bbWinMain_perfcount.c	34;"	d	file:
+WaveFile	src/bbWinMain.c	/^} WaveFile;$/;"	t	typeref:struct:WaveFile_s	file:
+WaveFile	src/bbWinMain_perfcount.c	/^} WaveFile;$/;"	t	typeref:struct:WaveFile_s	file:
+WaveFile_close	src/bbWinMain.c	/^void WaveFile_close (WaveFile* wav)$/;"	f
+WaveFile_close	src/bbWinMain_perfcount.c	/^void WaveFile_close (WaveFile* wav)$/;"	f
+WaveFile_create	src/bbWinMain.c	/^WaveFile* WaveFile_create ()$/;"	f
+WaveFile_create	src/bbWinMain_perfcount.c	/^WaveFile* WaveFile_create ()$/;"	f
+WaveFile_open	src/bbWinMain.c	/^GLboolean WaveFile_open (WaveFile* wav, LPSTR filename)$/;"	f
+WaveFile_open	src/bbWinMain_perfcount.c	/^GLboolean WaveFile_open (WaveFile* wav, LPSTR filename)$/;"	f
+WaveFile_read	src/bbWinMain.c	/^GLboolean WaveFile_read (WaveFile* wav, BYTE* pBuffer,$/;"	f
+WaveFile_read	src/bbWinMain_perfcount.c	/^GLboolean WaveFile_read (WaveFile* wav, BYTE* pBuffer,$/;"	f
+WaveFile_readMMIO	src/bbWinMain.c	/^GLboolean WaveFile_readMMIO (WaveFile* wav)$/;"	f
+WaveFile_readMMIO	src/bbWinMain_perfcount.c	/^GLboolean WaveFile_readMMIO (WaveFile* wav)$/;"	f
+WaveFile_resetFile	src/bbWinMain.c	/^GLboolean WaveFile_resetFile (WaveFile* wav)$/;"	f
+WaveFile_resetFile	src/bbWinMain_perfcount.c	/^GLboolean WaveFile_resetFile (WaveFile* wav)$/;"	f
+WaveFile_s	src/bbWinMain.c	/^typedef struct WaveFile_s$/;"	s	file:
+WaveFile_s	src/bbWinMain_perfcount.c	/^typedef struct WaveFile_s$/;"	s	file:
+WinMain	src/bbWinMain.c	/^int WINAPI WinMain(HINSTANCE    hInstance,$/;"	f
+WinMain	src/bbWinMain_perfcount.c	/^int WINAPI WinMain(HINSTANCE    hInstance,$/;"	f
+__SURFACE_ADOPTER_H	src/SurfaceAdopter.h	2;"	d
+__khrplatform_h_	include/KHR/khrplatform.h	2;"	d
+aBits	include/bbPinballDefines.h	/^	int    aBits;$/;"	m	struct:__anon5
+additive	include/bbMaterial.h	/^	GLboolean		additive;$/;"	m	struct:BBMaterial_s
+alignA	include/bbTga.h	/^	GLubyte		alignA;$/;"	m	struct:__anon4
+alignB	include/bbTga.h	/^	GLubyte		alignB[3];$/;"	m	struct:__anon4
+alignC	include/bbTga.h	/^	GLubyte		alignC[2];$/;"	m	struct:__anon4
+bBits	include/bbPinballDefines.h	/^	int    bBits;$/;"	m	struct:__anon5
+ball	build/bbPinball.c	/^    BBBall                  ball;$/;"	m	struct:BBPinball_s	file:
+ball	build/bbPinball.c	/^    BBBall* ball;$/;"	m	struct:BBBallCollision_s	file:
+ball	src/bbPinball.c	/^    BBBall                  ball;$/;"	m	struct:BBPinball_s	file:
+ball	src/bbPinball.c	/^    BBBall* ball;$/;"	m	struct:BBBallCollision_s	file:
+ballCamera	build/bbPinball.c	/^    GLboolean               ballCamera;$/;"	m	struct:BBPinball_s	file:
+ballCamera	src/bbPinball.c	/^    GLboolean               ballCamera;$/;"	m	struct:BBPinball_s	file:
+ballDoorAngle	build/bbPinball.c	/^    GLfloat                 ballDoorAngle;$/;"	m	struct:BBPinball_s	file:
+ballDoorAngle	src/bbPinball.c	/^    GLfloat                 ballDoorAngle;$/;"	m	struct:BBPinball_s	file:
+ballDoorClosed	build/bbPinball.c	/^    GLboolean               ballDoorClosed;$/;"	m	struct:BBPinball_s	file:
+ballDoorClosed	src/bbPinball.c	/^    GLboolean               ballDoorClosed;$/;"	m	struct:BBPinball_s	file:
+ballDoorMesh	build/bbPinball.c	/^    BBMesh*                 ballDoorMesh;$/;"	m	struct:BBPinball_s	file:
+ballDoorMesh	src/bbPinball.c	/^    BBMesh*                 ballDoorMesh;$/;"	m	struct:BBPinball_s	file:
+ballInPlay	build/bbPinball.c	/^    GLboolean               ballInPlay;$/;"	m	struct:BBPinball_s	file:
+ballInPlay	src/bbPinball.c	/^    GLboolean               ballInPlay;$/;"	m	struct:BBPinball_s	file:
+ballLaunchTime	build/bbPinball.c	/^    GLint                   ballLaunchTime;$/;"	m	struct:BBPinball_s	file:
+ballLaunchTime	src/bbPinball.c	/^    GLint                   ballLaunchTime;$/;"	m	struct:BBPinball_s	file:
+ballLocked	build/bbPinball.c	/^    GLboolean               ballLocked;$/;"	m	struct:BBPinball_s	file:
+ballLocked	src/bbPinball.c	/^    GLboolean               ballLocked;$/;"	m	struct:BBPinball_s	file:
+ballMesh	build/bbPinball.c	/^    BBMesh*                 ballMesh;$/;"	m	struct:BBPinball_s	file:
+ballMesh	src/bbPinball.c	/^    BBMesh*                 ballMesh;$/;"	m	struct:BBPinball_s	file:
+ballReleaseTime	build/bbPinball.c	/^    GLint                   ballReleaseTime;$/;"	m	struct:BBPinball_s	file:
+ballReleaseTime	src/bbPinball.c	/^    GLint                   ballReleaseTime;$/;"	m	struct:BBPinball_s	file:
+ballShadowMesh	build/bbPinball.c	/^    BBMesh*                 ballShadowMesh;$/;"	m	struct:BBPinball_s	file:
+ballShadowMesh	src/bbPinball.c	/^    BBMesh*                 ballShadowMesh;$/;"	m	struct:BBPinball_s	file:
+ballsLeft	build/bbPinball.c	/^    GLuint                  ballsLeft;$/;"	m	struct:BBPlayer_s	file:
+ballsLeft	src/bbPinball.c	/^    GLuint                  ballsLeft;$/;"	m	struct:BBPlayer_s	file:
+ballsLeftLastChange	build/bbPinball.c	/^    GLuint                  ballsLeftLastChange;$/;"	m	struct:BBPlayer_s	file:
+ballsLeftLastChange	src/bbPinball.c	/^    GLuint                  ballsLeftLastChange;$/;"	m	struct:BBPlayer_s	file:
+bbAbs	include/bbMath.h	21;"	d
+bbAlmostZero	build/bbMath.c	/^GLboolean bbAlmostZero (GLfloat v)$/;"	f
+bbAlmostZero	src/bbMath.c	/^GLboolean bbAlmostZero (GLfloat v)$/;"	f
+bbClamp	build/bbMath.c	/^GLfloat bbClamp (GLfloat v, GLfloat min, GLfloat max)$/;"	f
+bbClamp	src/bbMath.c	/^GLfloat bbClamp (GLfloat v, GLfloat min, GLfloat max)$/;"	f
+bbCompileShader	build/bbGLUtils.c	/^GLuint bbCompileShader (const char* filename)$/;"	f
+bbCompileShader	src/bbGLUtils.c	/^GLuint bbCompileShader (const char* filename)$/;"	f
+bbCreateRect	build/bbMesh.c	/^BBMesh* bbCreateRect (GLfloat x, GLfloat y, GLfloat width, GLfloat height,$/;"	f
+bbCreateRect	src/bbMesh.c	/^BBMesh* bbCreateRect (GLfloat x, GLfloat y, GLfloat width, GLfloat height,$/;"	f
+bbLinkProgram	build/bbGLUtils.c	/^GLuint bbLinkProgram (GLuint vertexShader, GLuint fragShader)$/;"	f
+bbLinkProgram	src/bbGLUtils.c	/^GLuint bbLinkProgram (GLuint vertexShader, GLuint fragShader)$/;"	f
+bbLinkSuperProgram	build/bbShaderStack.c	/^GLuint bbLinkSuperProgram (char* buffer, int size)$/;"	f
+bbLinkSuperProgram	src/bbShaderStack.c	/^GLuint bbLinkSuperProgram (char* buffer, int size)$/;"	f
+bbMatrixGetTranslation	build/bbMath.c	/^void bbMatrixGetTranslation (const GLfloat* matrix, GLfloat* trans)$/;"	f
+bbMatrixGetTranslation	src/bbMath.c	/^void bbMatrixGetTranslation (const GLfloat* matrix, GLfloat* trans)$/;"	f
+bbMatrixIdentity	build/bbMath.c	/^void bbMatrixIdentity (GLfloat* result)$/;"	f
+bbMatrixIdentity	src/bbMath.c	/^void bbMatrixIdentity (GLfloat* result)$/;"	f
+bbMatrixMirrorY	build/bbPinball.c	/^static void bbMatrixMirrorY (GLfloat* mat, GLfloat y)$/;"	f	file:
+bbMatrixMirrorY	src/bbPinball.c	/^static void bbMatrixMirrorY (GLfloat* mat, GLfloat y)$/;"	f	file:
+bbMatrixMultiply	build/bbMath.c	/^void bbMatrixMultiply (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbMatrixMultiply	src/bbMath.c	/^void bbMatrixMultiply (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbMatrixProjection	build/bbMath.c	/^void bbMatrixProjection (GLfloat verticalFov, GLfloat aspect,$/;"	f
+bbMatrixProjection	src/bbMath.c	/^void bbMatrixProjection (GLfloat verticalFov, GLfloat aspect,$/;"	f
+bbMatrixRotationX	build/bbMath.c	/^void bbMatrixRotationX (GLfloat angle, GLfloat* result)$/;"	f
+bbMatrixRotationX	src/bbMath.c	/^void bbMatrixRotationX (GLfloat angle, GLfloat* result)$/;"	f
+bbMatrixRotationY	build/bbMath.c	/^void bbMatrixRotationY (GLfloat angle, GLfloat* result)$/;"	f
+bbMatrixRotationY	src/bbMath.c	/^void bbMatrixRotationY (GLfloat angle, GLfloat* result)$/;"	f
+bbMatrixRotationZ	build/bbMath.c	/^void bbMatrixRotationZ (GLfloat angle, GLfloat* result)$/;"	f
+bbMatrixRotationZ	src/bbMath.c	/^void bbMatrixRotationZ (GLfloat angle, GLfloat* result)$/;"	f
+bbMatrixScaling	build/bbMath.c	/^void bbMatrixScaling (GLfloat x, GLfloat y, GLfloat z, GLfloat* result)$/;"	f
+bbMatrixScaling	src/bbMath.c	/^void bbMatrixScaling (GLfloat x, GLfloat y, GLfloat z, GLfloat* result)$/;"	f
+bbMatrixTranslation	build/bbMath.c	/^void bbMatrixTranslation (GLfloat x, GLfloat y, GLfloat z, GLfloat* result)$/;"	f
+bbMatrixTranslation	src/bbMath.c	/^void bbMatrixTranslation (GLfloat x, GLfloat y, GLfloat z, GLfloat* result)$/;"	f
+bbMatrixView	build/bbMath.c	/^void bbMatrixView (const GLfloat* eye, const GLfloat* lookAt, GLfloat roll, GLfloat* result)$/;"	f
+bbMatrixView	src/bbMath.c	/^void bbMatrixView (const GLfloat* eye, const GLfloat* lookAt, GLfloat roll, GLfloat* result)$/;"	f
+bbParseParameters	build/bbParserUtils.c	/^void bbParseParameters(BBPinballCreateParams* params, int argc, char* argv[])$/;"	f
+bbParseParameters	src/bbParserUtils.c	/^void bbParseParameters(BBPinballCreateParams* params, int argc, char* argv[])$/;"	f
+bbParseString	build/bbParserUtils.c	/^char* bbParseString (char** stream, const char* stopChars)$/;"	f
+bbParseString	src/bbParserUtils.c	/^char* bbParseString (char** stream, const char* stopChars)$/;"	f
+bbReadFileToBuffer	build/bbParserUtils.c	/^char* bbReadFileToBuffer (const char* filename)$/;"	f
+bbReadFileToBuffer	src/bbParserUtils.c	/^char* bbReadFileToBuffer (const char* filename)$/;"	f
+bbSkipWhite	build/bbParserUtils.c	/^void bbSkipWhite (char** stream)$/;"	f
+bbSkipWhite	src/bbParserUtils.c	/^void bbSkipWhite (char** stream)$/;"	f
+bbSwapInt	include/bbMath.h	23;"	d
+bbVec2Add	build/bbMath.c	/^void bbVec2Add (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec2Add	src/bbMath.c	/^void bbVec2Add (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec2ClosestPoint	build/bbMath.c	/^GLboolean bbVec2ClosestPoint (const GLfloat* lineStart, const GLfloat* lineEnd,$/;"	f
+bbVec2ClosestPoint	src/bbMath.c	/^GLboolean bbVec2ClosestPoint (const GLfloat* lineStart, const GLfloat* lineEnd,$/;"	f
+bbVec2CrossProduct	build/bbMath.c	/^void bbVec2CrossProduct (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec2CrossProduct	src/bbMath.c	/^void bbVec2CrossProduct (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec2DotProduct	build/bbMath.c	/^GLfloat bbVec2DotProduct (const GLfloat* left, const GLfloat* right)$/;"	f
+bbVec2DotProduct	src/bbMath.c	/^GLfloat bbVec2DotProduct (const GLfloat* left, const GLfloat* right)$/;"	f
+bbVec2Length	build/bbMath.c	/^GLfloat bbVec2Length (const GLfloat* vec)$/;"	f
+bbVec2Length	src/bbMath.c	/^GLfloat bbVec2Length (const GLfloat* vec)$/;"	f
+bbVec2Normalize	build/bbMath.c	/^void bbVec2Normalize (GLfloat* vec)$/;"	f
+bbVec2Normalize	src/bbMath.c	/^void bbVec2Normalize (GLfloat* vec)$/;"	f
+bbVec2Reflect	build/bbMath.c	/^void bbVec2Reflect (const GLfloat* dir, const GLfloat* normal, GLfloat* out)$/;"	f
+bbVec2Reflect	src/bbMath.c	/^void bbVec2Reflect (const GLfloat* dir, const GLfloat* normal, GLfloat* out)$/;"	f
+bbVec2Square	build/bbMath.c	/^GLfloat bbVec2Square (const GLfloat* vec)$/;"	f
+bbVec2Square	src/bbMath.c	/^GLfloat bbVec2Square (const GLfloat* vec)$/;"	f
+bbVec2Sub	build/bbMath.c	/^void bbVec2Sub (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec2Sub	src/bbMath.c	/^void bbVec2Sub (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec2Transform	build/bbMath.c	/^void bbVec2Transform (const GLfloat* vec, const GLfloat* matrix, GLfloat* result, GLint xIndex, GLint yIndex)$/;"	f
+bbVec2Transform	src/bbMath.c	/^void bbVec2Transform (const GLfloat* vec, const GLfloat* matrix, GLfloat* result, GLint xIndex, GLint yIndex)$/;"	f
+bbVec2TransformNoTrans	build/bbMath.c	/^void bbVec2TransformNoTrans (const GLfloat* vec, const GLfloat* matrix, GLfloat* result, GLint xIndex, GLint yIndex)$/;"	f
+bbVec2TransformNoTrans	src/bbMath.c	/^void bbVec2TransformNoTrans (const GLfloat* vec, const GLfloat* matrix, GLfloat* result, GLint xIndex, GLint yIndex)$/;"	f
+bbVec3Add	build/bbMath.c	/^void bbVec3Add (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec3Add	src/bbMath.c	/^void bbVec3Add (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec3CrossProduct	build/bbMath.c	/^void bbVec3CrossProduct (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec3CrossProduct	src/bbMath.c	/^void bbVec3CrossProduct (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec3DotProduct	build/bbMath.c	/^GLfloat bbVec3DotProduct (const GLfloat* left, const GLfloat* right)$/;"	f
+bbVec3DotProduct	src/bbMath.c	/^GLfloat bbVec3DotProduct (const GLfloat* left, const GLfloat* right)$/;"	f
+bbVec3Length	build/bbMath.c	/^GLfloat bbVec3Length (const GLfloat* vec)$/;"	f
+bbVec3Length	src/bbMath.c	/^GLfloat bbVec3Length (const GLfloat* vec)$/;"	f
+bbVec3Normalize	build/bbMath.c	/^void bbVec3Normalize (GLfloat* vec)$/;"	f
+bbVec3Normalize	src/bbMath.c	/^void bbVec3Normalize (GLfloat* vec)$/;"	f
+bbVec3Reflect	build/bbMath.c	/^void bbVec3Reflect (const GLfloat* dir, const GLfloat* normal, GLfloat* out)$/;"	f
+bbVec3Reflect	src/bbMath.c	/^void bbVec3Reflect (const GLfloat* dir, const GLfloat* normal, GLfloat* out)$/;"	f
+bbVec3Sub	build/bbMath.c	/^void bbVec3Sub (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec3Sub	src/bbMath.c	/^void bbVec3Sub (const GLfloat* left, const GLfloat* right, GLfloat* result)$/;"	f
+bbVec3Transform	build/bbMath.c	/^void bbVec3Transform (const GLfloat* vec, const GLfloat* matrix, GLfloat* result)$/;"	f
+bbVec3Transform	src/bbMath.c	/^void bbVec3Transform (const GLfloat* vec, const GLfloat* matrix, GLfloat* result)$/;"	f
+bglClearDepth	build/bbLinuxMain.c	/^void bglClearDepth(float depth)$/;"	f
+bglClearDepth	src/bbLinuxMain.c	/^void bglClearDepth(float depth)$/;"	f
+bglClearDepth	src/bbVersatileMain.c	/^void bglClearDepth(float depth)$/;"	f
+bglContext	include/bbPinballDefines.h	/^} bglContext;$/;"	t	typeref:struct:eglContext_s
+bglSwapBuffer	src/bbVersatileMain.c	/^void bglSwapBuffer(bglContext* context)$/;"	f
+bits	include/bbTga.h	/^	GLubyte		bits;				\/* image bits per pixel 8,16,24,32 *\/$/;"	m	struct:__anon4
+bitsPerPixel	include/bbPinballDefines.h	/^	int    bitsPerPixel;$/;"	m	struct:__anon5
+blend	include/bbMaterial.h	/^	GLboolean		blend;$/;"	m	struct:BBMaterial_s
+boardMesh	build/bbPinball.c	/^    BBMesh*                 boardMesh;$/;"	m	struct:BBPinball_s	file:
+boardMesh	src/bbPinball.c	/^    BBMesh*                 boardMesh;$/;"	m	struct:BBPinball_s	file:
+boardObjectStore	build/bbPinball.c	/^    BBMeshStore*            boardObjectStore;$/;"	m	struct:BBPinball_s	file:
+boardObjectStore	src/bbPinball.c	/^    BBMeshStore*            boardObjectStore;$/;"	m	struct:BBPinball_s	file:
+bottom	build/bbCollisionMap.c	/^	GLfloat		bottom;$/;"	m	struct:BBCollisionMap_s	file:
+bottom	src/bbCollisionMap.c	/^	GLfloat		bottom;$/;"	m	struct:BBCollisionMap_s	file:
+cacheUniformSetup	build/bbPinball.c	/^static void cacheUniformSetup(GLuint program, BBPinballUniformSetupCache* cache)$/;"	f	file:
+cacheUniformSetup	src/bbPinball.c	/^static void cacheUniformSetup(GLuint program, BBPinballUniformSetupCache* cache)$/;"	f	file:
+cameraDist	build/bbPinball.c	/^    GLfloat                 cameraDist;$/;"	m	struct:BBPinball_s	file:
+cameraDist	src/bbPinball.c	/^    GLfloat                 cameraDist;$/;"	m	struct:BBPinball_s	file:
+captureBuffer	build/bbPinball.c	/^    GLubyte*                captureBuffer;$/;"	m	struct:BBPinball_s	file:
+captureBuffer	src/bbPinball.c	/^    GLubyte*                captureBuffer;$/;"	m	struct:BBPinball_s	file:
+captureFrame	build/bbPinball.c	/^    GLint                   captureFrame;$/;"	m	struct:BBPinball_s	file:
+captureFrame	src/bbPinball.c	/^    GLint                   captureFrame;$/;"	m	struct:BBPinball_s	file:
+captureOn	build/bbPinball.c	/^    GLboolean               captureOn;$/;"	m	struct:BBPinball_s	file:
+captureOn	src/bbPinball.c	/^    GLboolean               captureOn;$/;"	m	struct:BBPinball_s	file:
+capturePrefix	build/bbPinball.c	/^    char*                   capturePrefix;$/;"	m	struct:BBPinball_s	file:
+capturePrefix	include/bbPinball.h	/^	char*		capturePrefix;$/;"	m	struct:BBPinballCreateParams_s
+capturePrefix	src/bbPinball.c	/^    char*                   capturePrefix;$/;"	m	struct:BBPinball_s	file:
+catenateMipMapFilename	build/bbTexture.c	/^static void catenateMipMapFilename (char* filename, GLsizei level)$/;"	f	file:
+catenateMipMapFilename	src/bbTexture.c	/^static void catenateMipMapFilename (char* filename, GLsizei level)$/;"	f	file:
+collisionMap	build/bbPinball.c	/^    BBCollisionMap*         collisionMap;$/;"	m	struct:BBPinball_s	file:
+collisionMap	src/bbPinball.c	/^    BBCollisionMap*         collisionMap;$/;"	m	struct:BBPinball_s	file:
+colourmapbits	include/bbTga.h	/^	GLubyte		colourmapbits;		\/* number of bits per palette entry 15,16,24,32 *\/$/;"	m	struct:__anon4
+colourmaplength	include/bbTga.h	/^	GLushort	colourmaplength;	\/* number of colours in palette *\/$/;"	m	struct:__anon4
+colourmapstart	include/bbTga.h	/^	GLushort	colourmapstart;		\/* first colour map entry in palette *\/$/;"	m	struct:__anon4
+colourmaptype	include/bbTga.h	/^	GLubyte		colourmaptype;		\/* type of colour map 0=none, 1=has palette *\/$/;"	m	struct:__anon4
+config	include/bbPinball.h	/^	EGLConfig	config;$/;"	m	struct:BBPinballCreateParams_s
+config	include/bbPinballDefines.h	/^	EGLConfig   config;$/;"	m	struct:eglContext_s
+context	include/bbPinballDefines.h	/^	EGLContext	context;$/;"	m	struct:eglContext_s
+cosf	include/bbMath.h	17;"	d
+count	build/bbMesh.c	/^	GLuint		count;$/;"	m	struct:BBSubMesh_s	file:
+count	build/bbPinball.c	/^    GLint           count;$/;"	m	struct:BBRecordChunk_s	file:
+count	src/bbMesh.c	/^	GLuint		count;$/;"	m	struct:BBSubMesh_s	file:
+count	src/bbPinball.c	/^    GLint           count;$/;"	m	struct:BBRecordChunk_s	file:
+counterList	src/bbWinMain_perfcount.c	/^        GLuint       *counterList;$/;"	m	struct:__anon2	file:
+countersInitialized	src/bbWinMain_perfcount.c	/^static int	countersInitialized = 0;$/;"	v	file:
+current	build/bbMeshStore.c	/^	BBMeshList*			current;$/;"	m	struct:BBMeshStore_s	file:
+current	src/bbMeshStore.c	/^	BBMeshList*			current;$/;"	m	struct:BBMeshStore_s	file:
+currentPlayerIndex	build/bbPinball.c	/^    GLuint                  currentPlayerIndex;$/;"	m	struct:BBPinball_s	file:
+currentPlayerIndex	src/bbPinball.c	/^    GLuint                  currentPlayerIndex;$/;"	m	struct:BBPinball_s	file:
+currentProgram	build/bbShaderStack.c	/^	BBProgramObject*	currentProgram;$/;"	m	struct:BBShaderStack_s	file:
+currentProgram	src/bbShaderStack.c	/^	BBProgramObject*	currentProgram;$/;"	m	struct:BBShaderStack_s	file:
+currentRecordChunk	build/bbPinball.c	/^    BBRecordChunk*          currentRecordChunk;$/;"	m	struct:BBPinball_s	file:
+currentRecordChunk	src/bbPinball.c	/^    BBRecordChunk*          currentRecordChunk;$/;"	m	struct:BBPinball_s	file:
+currentRecordPos	build/bbPinball.c	/^    GLint                   currentRecordPos;$/;"	m	struct:BBPinball_s	file:
+currentRecordPos	src/bbPinball.c	/^    GLint                   currentRecordPos;$/;"	m	struct:BBPinball_s	file:
+currentTexBlendValue	build/bbPinball.c	/^    GLfloat                 currentTexBlendValue;$/;"	m	struct:BBPinball_s	file:
+currentTexBlendValue	src/bbPinball.c	/^    GLfloat                 currentTexBlendValue;$/;"	m	struct:BBPinball_s	file:
+currentTime	build/bbPinball.c	/^    GLint                   currentTime;$/;"	m	struct:BBPinball_s	file:
+currentTime	include/bbMaterial.h	/^    int currentTime;$/;"	m	struct:__anon10
+currentTime	src/bbPinball.c	/^    GLint                   currentTime;$/;"	m	struct:BBPinball_s	file:
+cycleArrowLights	build/bbPinball.c	/^    GLboolean               cycleArrowLights;$/;"	m	struct:BBPlayer_s	file:
+cycleArrowLights	src/bbPinball.c	/^    GLboolean               cycleArrowLights;$/;"	m	struct:BBPlayer_s	file:
+data	build/bbCollisionMap.c	/^	GLubyte*	data;$/;"	m	struct:BBCollisionMap_s	file:
+data	include/bbTga.h	/^	GLubyte*	data;$/;"	m	struct:__anon4
+data	src/bbCollisionMap.c	/^	GLubyte*	data;$/;"	m	struct:BBCollisionMap_s	file:
+ddpfOverlayFormats	src/SurfaceAdopter.c	/^static DDPIXELFORMAT ddpfOverlayFormats[] = {$/;"	v	file:
+debugPos	build/bbPinball.c	/^    GLfloat                 debugPos[3];$/;"	m	struct:BBPinball_s	file:
+debugPos	src/bbPinball.c	/^    GLfloat                 debugPos[3];$/;"	m	struct:BBPinball_s	file:
+debugTriangle	build/bbPinball.c	/^    BBMesh*                 debugTriangle;$/;"	m	struct:BBPinball_s	file:
+debugTriangle	src/bbPinball.c	/^    BBMesh*                 debugTriangle;$/;"	m	struct:BBPinball_s	file:
+deinitDirectSound	src/bbWinMain.c	/^static void deinitDirectSound ()$/;"	f	file:
+deinitDirectSound	src/bbWinMain_perfcount.c	/^static void deinitDirectSound ()$/;"	f	file:
+deinitMain	src/bbWinMain.c	/^static void deinitMain ()$/;"	f	file:
+deinitMain	src/bbWinMain_perfcount.c	/^static void deinitMain ()$/;"	f	file:
+deinitWindow	src/bbWinMain.c	/^static void deinitWindow ()$/;"	f	file:
+deinitWindow	src/bbWinMain_perfcount.c	/^static void deinitWindow ()$/;"	f	file:
+deinit_perf_counter	src/bbWinMain_perfcount.c	/^void deinit_perf_counter()$/;"	f
+depthBits	include/bbPinballDefines.h	/^	int    depthBits;$/;"	m	struct:__anon5
+descriptor	include/bbTga.h	/^	GLubyte		descriptor;			\/* image descriptor bits (vh flip bits) *\/$/;"	m	struct:__anon4
+display	include/bbPinball.h	/^	EGLDisplay	display;$/;"	m	struct:BBPinballCreateParams_s
+display	include/bbPinballDefines.h	/^	EGLDisplay	display;$/;"	m	struct:eglContext_s
+dropTargetDownList	build/bbPinball.c	/^    GLboolean*              dropTargetDownList;$/;"	m	struct:BBPlayer_s	file:
+dropTargetDownList	src/bbPinball.c	/^    GLboolean*              dropTargetDownList;$/;"	m	struct:BBPlayer_s	file:
+dropTargetGroupDown	build/bbPinball.c	/^    GLint*                  dropTargetGroupDown;$/;"	m	struct:BBPlayer_s	file:
+dropTargetGroupDown	src/bbPinball.c	/^    GLint*                  dropTargetGroupDown;$/;"	m	struct:BBPlayer_s	file:
+dropTargetGroupRaiseTime	build/bbPinball.c	/^    GLint*                  dropTargetGroupRaiseTime;$/;"	m	struct:BBPinball_s	file:
+dropTargetGroupRaiseTime	src/bbPinball.c	/^    GLint*                  dropTargetGroupRaiseTime;$/;"	m	struct:BBPinball_s	file:
+dropTargetMeshes	build/bbPinball.c	/^    BBMesh**                dropTargetMeshes;$/;"	m	struct:BBPinball_s	file:
+dropTargetMeshes	src/bbPinball.c	/^    BBMesh**                dropTargetMeshes;$/;"	m	struct:BBPinball_s	file:
+dropTargetPosList	build/bbPinball.c	/^    GLfloat*                dropTargetPosList;$/;"	m	struct:BBPinball_s	file:
+dropTargetPosList	src/bbPinball.c	/^    GLfloat*                dropTargetPosList;$/;"	m	struct:BBPinball_s	file:
+eglClose	build/bbLinuxMain.c	/^void eglClose(bglContext* context)$/;"	f
+eglClose	src/bbLinuxMain.c	/^void eglClose(bglContext* context)$/;"	f
+eglClose	src/bbVersatileMain.c	/^void eglClose(bglContext* context)$/;"	f
+eglContext_s	include/bbPinballDefines.h	/^typedef struct eglContext_s$/;"	s
+eglOpen	build/bbLinuxMain.c	/^bglContext *eglOpen(Config *cfg, int usePBuffer)$/;"	f
+eglOpen	src/bbLinuxMain.c	/^bglContext *eglOpen(Config *cfg, int usePBuffer)$/;"	f
+eglOpen	src/bbVersatileMain.c	/^bglContext* eglOpen(Config *cfg){$/;"	f
+enableGroupCounters	src/bbWinMain_perfcount.c	/^int enableGroupCounters(char *groupName, GLuint *monitor, GLuint *groupID)$/;"	f
+eye	build/bbPinball.c	/^    GLfloat                 eye[3];$/;"	m	struct:BBPinball_s	file:
+eye	src/bbPinball.c	/^    GLfloat                 eye[3];$/;"	m	struct:BBPinball_s	file:
+eyePosLoc	include/bbMaterial.h	/^	GLint eyePosLoc;$/;"	m	struct:__anon10
+eyePosOSLoc	include/bbMaterial.h	/^	GLint eyePosOSLoc;$/;"	m	struct:__anon10
+filename	src/bbWinMain.c	/^	char*					filename;$/;"	m	struct:DXSound_s	file:
+filename	src/bbWinMain_perfcount.c	/^	char*					filename;$/;"	m	struct:DXSound_s	file:
+firstMaterial	build/bbMaterial.c	/^	BBMaterial* firstMaterial;$/;"	m	struct:BBMaterialStore_s	file:
+firstMaterial	src/bbMaterial.c	/^	BBMaterial* firstMaterial;$/;"	m	struct:BBMaterialStore_s	file:
+firstMesh	build/bbMeshStore.c	/^	BBMeshList*			firstMesh;$/;"	m	struct:BBMeshStore_s	file:
+firstMesh	src/bbMeshStore.c	/^	BBMeshList*			firstMesh;$/;"	m	struct:BBMeshStore_s	file:
+firstProgram	build/bbShaderStack.c	/^	BBProgramObject*	firstProgram;$/;"	m	struct:BBShaderStack_s	file:
+firstProgram	src/bbShaderStack.c	/^	BBProgramObject*	firstProgram;$/;"	m	struct:BBShaderStack_s	file:
+firstRecordChunk	build/bbPinball.c	/^    BBRecordChunk*          firstRecordChunk;$/;"	m	struct:BBPinball_s	file:
+firstRecordChunk	src/bbPinball.c	/^    BBRecordChunk*          firstRecordChunk;$/;"	m	struct:BBPinball_s	file:
+firstShader	build/bbShaderStack.c	/^	BBShaderObject*		firstShader;$/;"	m	struct:BBShaderStack_s	file:
+firstShader	src/bbShaderStack.c	/^	BBShaderObject*		firstShader;$/;"	m	struct:BBShaderStack_s	file:
+firstSubMesh	build/bbMesh.c	/^	BBSubMesh* firstSubMesh;$/;"	m	struct:BBMesh_s	file:
+firstSubMesh	src/bbMesh.c	/^	BBSubMesh* firstSubMesh;$/;"	m	struct:BBMesh_s	file:
+firstTexture	build/bbTexture.c	/^	BBTexture*	firstTexture;$/;"	m	struct:BBTextureStore_s	file:
+firstTexture	src/bbTexture.c	/^	BBTexture*	firstTexture;$/;"	m	struct:BBTextureStore_s	file:
+fragment	build/bbShaderStack.c	/^	BBShaderObject*		fragment;$/;"	m	struct:BBProgramObject_s	file:
+fragment	src/bbShaderStack.c	/^	BBShaderObject*		fragment;$/;"	m	struct:BBProgramObject_s	file:
+frameSFX	build/bbPinball.c	/^    int                     frameSFX;$/;"	m	struct:BBPinball_s	file:
+frameSFX	src/bbPinball.c	/^    int                     frameSFX;$/;"	m	struct:BBPinball_s	file:
+frames	build/bbPinball.c	/^    BBRecordFrame   frames[BB_PINBALL_RECORD_CHUNK_FRAME_COUNT];$/;"	m	struct:BBRecordChunk_s	file:
+frames	src/bbPinball.c	/^    BBRecordFrame   frames[BB_PINBALL_RECORD_CHUNK_FRAME_COUNT];$/;"	m	struct:BBRecordChunk_s	file:
+free	include/bbPinball.h	/^	FreeSoundFunc	free;$/;"	m	struct:BBSoundInterface_s
+freeLaunch	build/bbPinball.c	/^    GLboolean               freeLaunch;$/;"	m	struct:BBPlayer_s	file:
+freeLaunch	src/bbPinball.c	/^    GLboolean               freeLaunch;$/;"	m	struct:BBPlayer_s	file:
+freeSound	src/bbWinMain.c	/^static void freeSound (GLuint sound)$/;"	f	file:
+freeSound	src/bbWinMain_perfcount.c	/^static void freeSound (GLuint sound)$/;"	f	file:
+gBits	include/bbPinballDefines.h	/^	int    gBits;$/;"	m	struct:__anon5
+g_MeshNum	build/bbPinball.c	/^int g_MeshNum;$/;"	v
+g_MeshNum	src/bbPinball.c	/^int g_MeshNum;$/;"	v
+g_RenderingSurface	src/bbWinMain.c	/^RenderingSurface* g_RenderingSurface = 0;$/;"	v
+g_config	src/bbWinMain.c	/^EGLConfig		g_config = 0;$/;"	v
+g_config	src/bbWinMain_perfcount.c	/^EGLConfig		g_config = 0;$/;"	v
+g_display	src/bbWinMain.c	/^EGLDisplay		g_display = EGL_NO_DISPLAY;$/;"	v
+g_display	src/bbWinMain_perfcount.c	/^EGLDisplay		g_display = EGL_NO_DISPLAY;$/;"	v
+g_ds	src/bbWinMain.c	/^IDirectSound8*	g_ds = NULL;$/;"	v
+g_ds	src/bbWinMain_perfcount.c	/^IDirectSound8*	g_ds = NULL;$/;"	v
+g_hDC	src/bbWinMain.c	/^HDC				g_hDC	= NULL;$/;"	v
+g_hDC	src/bbWinMain_perfcount.c	/^HDC				g_hDC	= NULL;$/;"	v
+g_hWnd	src/bbWinMain.c	/^HWND			g_hWnd	= NULL;$/;"	v
+g_hWnd	src/bbWinMain_perfcount.c	/^HWND			g_hWnd	= NULL;$/;"	v
+g_mainContext	src/bbWinMain.c	/^EGLContext		g_mainContext = EGL_NO_CONTEXT;$/;"	v
+g_mainContext	src/bbWinMain_perfcount.c	/^EGLContext		g_mainContext = EGL_NO_CONTEXT;$/;"	v
+g_mainSurface	src/bbWinMain.c	/^EGLSurface		g_mainSurface = EGL_NO_SURFACE;$/;"	v
+g_mainSurface	src/bbWinMain_perfcount.c	/^EGLSurface		g_mainSurface = EGL_NO_SURFACE;$/;"	v
+g_mouseWheelValue	src/bbWinMain.c	/^GLint			g_mouseWheelValue = 0;$/;"	v
+g_mouseWheelValue	src/bbWinMain_perfcount.c	/^GLint			g_mouseWheelValue = 0;$/;"	v
+g_pinball	build/bbLinuxMain.c	/^static BBPinball *g_pinball = NULL;$/;"	v	file:
+g_pinball	src/bbLinuxMain.c	/^static BBPinball *g_pinball = NULL;$/;"	v	file:
+g_pinball	src/bbVersatileMain.c	/^BBPinball *g_pinball = NULL;$/;"	v
+g_pinball	src/bbWinMain.c	/^BBPinball*		g_pinball = NULL;$/;"	v
+g_pinball	src/bbWinMain_perfcount.c	/^BBPinball*		g_pinball = NULL;$/;"	v
+g_reload	src/bbWinMain.c	/^GLboolean		g_reload = GL_FALSE;$/;"	v
+g_reload	src/bbWinMain_perfcount.c	/^GLboolean		g_reload = GL_FALSE;$/;"	v
+g_resolutionIndex	src/bbWinMain.c	/^GLuint			g_resolutionIndex = 0;$/;"	v
+g_resolutionIndex	src/bbWinMain_perfcount.c	/^GLuint			g_resolutionIndex = 0;$/;"	v
+g_resolutionList	src/bbWinMain.c	/^GLuint			g_resolutionList[MAX_RESOLUTIONS * 2];$/;"	v
+g_resolutionList	src/bbWinMain_perfcount.c	/^GLuint			g_resolutionList[MAX_RESOLUTIONS * 2];$/;"	v
+g_sound	src/bbWinMain.c	/^BBSoundInterface	g_sound;$/;"	v
+g_sound	src/bbWinMain_perfcount.c	/^BBSoundInterface	g_sound;$/;"	v
+g_soundCount	src/bbWinMain.c	/^GLuint				g_soundCount;$/;"	v
+g_soundCount	src/bbWinMain_perfcount.c	/^GLuint				g_soundCount;$/;"	v
+g_soundLastError	src/bbWinMain.c	/^GLuint				g_soundLastError = 0;$/;"	v
+g_soundLastError	src/bbWinMain_perfcount.c	/^GLuint				g_soundLastError = 0;$/;"	v
+g_soundList	src/bbWinMain.c	/^DXSound*			g_soundList[MAX_SOUNDS];$/;"	v
+g_soundList	src/bbWinMain_perfcount.c	/^DXSound*			g_soundList[MAX_SOUNDS];$/;"	v
+g_surfaceHeight	src/bbWinMain.c	/^GLuint			g_surfaceHeight	= 480;$/;"	v
+g_surfaceHeight	src/bbWinMain_perfcount.c	/^GLuint			g_surfaceHeight	= 240;$/;"	v
+g_surfaceWidth	src/bbWinMain.c	/^GLuint			g_surfaceWidth	= 480;$/;"	v
+g_surfaceWidth	src/bbWinMain_perfcount.c	/^GLuint			g_surfaceWidth	= 320;$/;"	v
+g_timeFreq	src/bbWinMain.c	/^LARGE_INTEGER	g_timeFreq;$/;"	v
+g_timeFreq	src/bbWinMain_perfcount.c	/^LARGE_INTEGER	g_timeFreq;$/;"	v
+g_timeInited	src/bbWinMain.c	/^GLboolean		g_timeInited = GL_FALSE;$/;"	v
+g_timeInited	src/bbWinMain_perfcount.c	/^GLboolean		g_timeInited = GL_FALSE;$/;"	v
+g_timeStart	src/bbWinMain.c	/^LARGE_INTEGER	g_timeStart;$/;"	v
+g_timeStart	src/bbWinMain_perfcount.c	/^LARGE_INTEGER	g_timeStart;$/;"	v
+g_wc	src/bbWinMain.c	/^WNDCLASS		g_wc;$/;"	v
+g_wc	src/bbWinMain_perfcount.c	/^WNDCLASS		g_wc;$/;"	v
+gameRunning	build/bbPinball.c	/^    GLboolean               gameRunning;$/;"	m	struct:BBPinball_s	file:
+gameRunning	src/bbPinball.c	/^    GLboolean               gameRunning;$/;"	m	struct:BBPinball_s	file:
+generateMipMap	build/bbTexture.c	/^static void generateMipMap (GLubyte* data, GLsizei width, GLsizei height,$/;"	f	file:
+generateMipMap	src/bbTexture.c	/^static void generateMipMap (GLubyte* data, GLsizei width, GLsizei height,$/;"	f	file:
+getCounterByName	src/bbWinMain_perfcount.c	/^getCounterByName(char *groupName, char *counterName, GLuint *groupID, $/;"	f
+getCurrentTime	build/bbLinuxMain.c	/^static GLint getCurrentTime()$/;"	f	file:
+getCurrentTime	src/bbLinuxMain.c	/^static GLint getCurrentTime()$/;"	f	file:
+getCurrentTime	src/bbSymbianMain.cpp	/^	TInt getCurrentTime()$/;"	f
+getCurrentTime	src/bbVersatileMain.c	/^static GLint getCurrentTime()$/;"	f	file:
+getCurrentTime	src/bbWinMain.c	/^static GLint getCurrentTime ()$/;"	f	file:
+getCurrentTime	src/bbWinMain_perfcount.c	/^static GLint getCurrentTime ()$/;"	f	file:
+getEGLError	build/bbLinuxMain.c	/^char* getEGLError(EGLint error)$/;"	f
+getEGLError	src/bbLinuxMain.c	/^char* getEGLError(EGLint error)$/;"	f
+getEGLError	src/bbVersatileMain.c	/^char* getEGLError(EGLint error)$/;"	f
+getGLError	build/bbLinuxMain.c	/^char* getGLError(GLenum error)$/;"	f
+getGLError	src/bbLinuxMain.c	/^char* getGLError(GLenum error)$/;"	f
+getGLError	src/bbVersatileMain.c	/^char* getGLError(GLenum error)$/;"	f
+getGroupAndCounterList	src/bbWinMain_perfcount.c	/^getGroupAndCounterList(GLuint **groupsList, int *numGroups, $/;"	f
+getTime	include/bbPinball.h	/^	GetTimeFunc		getTime;$/;"	m	struct:BBPinballCreateParams_s
+glassMesh	build/bbPinball.c	/^    BBMesh*                 glassMesh;$/;"	m	struct:BBPinball_s	file:
+glassMesh	src/bbPinball.c	/^    BBMesh*                 glassMesh;$/;"	m	struct:BBPinball_s	file:
+hWnd	src/SurfaceAdopter.h	/^		HWND hWnd;$/;"	m	struct:RenderingSurface_s
+handle	build/bbTexture.c	/^	GLuint		handle;$/;"	m	struct:BBTexture_s	file:
+handle	src/bbTexture.c	/^	GLuint		handle;$/;"	m	struct:BBTexture_s	file:
+height	build/bbCollisionMap.c	/^	GLsizei		height;$/;"	m	struct:BBCollisionMap_s	file:
+height	build/bbTexture.c	/^	GLsizei		height;$/;"	m	struct:BBTexture_s	file:
+height	include/bbTga.h	/^	GLushort	height;				\/* image height in pixels *\/$/;"	m	struct:__anon4
+height	src/bbCollisionMap.c	/^	GLsizei		height;$/;"	m	struct:BBCollisionMap_s	file:
+height	src/bbTexture.c	/^	GLsizei		height;$/;"	m	struct:BBTexture_s	file:
+hideHUD	build/bbPinball.c	/^	int						hideHUD;$/;"	m	struct:BBPinball_s	file:
+hideHUD	include/bbPinball.h	/^	int			hideHUD;$/;"	m	struct:BBPinballCreateParams_s
+hideHUD	src/bbPinball.c	/^	int						hideHUD;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckCurrentPlayer	build/bbPinball.c	/^    GLint                   highscoreCheckCurrentPlayer;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckCurrentPlayer	src/bbPinball.c	/^    GLint                   highscoreCheckCurrentPlayer;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckName	build/bbPinball.c	/^    char                    highscoreCheckName[4];$/;"	m	struct:BBPinball_s	file:
+highscoreCheckName	src/bbPinball.c	/^    char                    highscoreCheckName[4];$/;"	m	struct:BBPinball_s	file:
+highscoreCheckNamePos	build/bbPinball.c	/^    GLint                   highscoreCheckNamePos;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckNamePos	src/bbPinball.c	/^    GLint                   highscoreCheckNamePos;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckNext	build/bbPinball.c	/^    GLboolean               highscoreCheckNext;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckNext	src/bbPinball.c	/^    GLboolean               highscoreCheckNext;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckRunning	build/bbPinball.c	/^    GLboolean               highscoreCheckRunning;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckRunning	src/bbPinball.c	/^    GLboolean               highscoreCheckRunning;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckScrollTime	build/bbPinball.c	/^    GLint                   highscoreCheckScrollTime;$/;"	m	struct:BBPinball_s	file:
+highscoreCheckScrollTime	src/bbPinball.c	/^    GLint                   highscoreCheckScrollTime;$/;"	m	struct:BBPinball_s	file:
+highscoreChecked	build/bbPinball.c	/^    GLboolean               highscoreChecked;$/;"	m	struct:BBPlayer_s	file:
+highscoreChecked	src/bbPinball.c	/^    GLboolean               highscoreChecked;$/;"	m	struct:BBPlayer_s	file:
+highscoreScroll	build/bbPinball.c	/^    GLfloat                 highscoreScroll;$/;"	m	struct:BBPinball_s	file:
+highscoreScroll	src/bbPinball.c	/^    GLfloat                 highscoreScroll;$/;"	m	struct:BBPinball_s	file:
+highscoreScrollTime	build/bbPinball.c	/^    GLint                   highscoreScrollTime;$/;"	m	struct:BBPinball_s	file:
+highscoreScrollTime	src/bbPinball.c	/^    GLint                   highscoreScrollTime;$/;"	m	struct:BBPinball_s	file:
+highscores	build/bbPinball.c	/^    BBHighscore             highscores[BB_PINBALL_HIGHSCORE_COUNT];$/;"	m	struct:BBPinball_s	file:
+highscores	src/bbPinball.c	/^    BBHighscore             highscores[BB_PINBALL_HIGHSCORE_COUNT];$/;"	m	struct:BBPinball_s	file:
+horzAngle	build/bbPinball.c	/^    GLfloat                 horzAngle;$/;"	m	struct:BBPinball_s	file:
+horzAngle	src/bbPinball.c	/^    GLfloat                 horzAngle;$/;"	m	struct:BBPinball_s	file:
+hudColor	build/bbPinball.c	/^    GLfloat                 hudColor[4];$/;"	m	struct:BBPinball_s	file:
+hudColor	src/bbPinball.c	/^    GLfloat                 hudColor[4];$/;"	m	struct:BBPinball_s	file:
+hudColorLoc	include/bbMaterial.h	/^	GLint hudColorLoc;$/;"	m	struct:__anon10
+hudMesh	build/bbPinball.c	/^    BBMesh*                 hudMesh;$/;"	m	struct:BBPinball_s	file:
+hudMesh	src/bbPinball.c	/^    BBMesh*                 hudMesh;$/;"	m	struct:BBPinball_s	file:
+hudPos	build/bbPinball.c	/^    GLfloat                 hudPos[2];$/;"	m	struct:BBPinball_s	file:
+hudPos	src/bbPinball.c	/^    GLfloat                 hudPos[2];$/;"	m	struct:BBPinball_s	file:
+hudPosLoc	include/bbMaterial.h	/^	GLint hudPosLoc;$/;"	m	struct:__anon10
+hudScale	build/bbPinball.c	/^    GLfloat                 hudScale[2];$/;"	m	struct:BBPinball_s	file:
+hudScale	src/bbPinball.c	/^    GLfloat                 hudScale[2];$/;"	m	struct:BBPinball_s	file:
+hudScaleLoc	include/bbMaterial.h	/^	GLint hudScaleLoc;$/;"	m	struct:__anon10
+hudTexPos	build/bbPinball.c	/^    GLfloat                 hudTexPos[2];$/;"	m	struct:BBPinball_s	file:
+hudTexPos	src/bbPinball.c	/^    GLfloat                 hudTexPos[2];$/;"	m	struct:BBPinball_s	file:
+hudTexPosLoc	include/bbMaterial.h	/^	GLint hudTexPosLoc;$/;"	m	struct:__anon10
+hudTexScale	build/bbPinball.c	/^    GLfloat                 hudTexScale[2];$/;"	m	struct:BBPinball_s	file:
+hudTexScale	src/bbPinball.c	/^    GLfloat                 hudTexScale[2];$/;"	m	struct:BBPinball_s	file:
+hudTexScaleLoc	include/bbMaterial.h	/^	GLint hudTexScaleLoc;$/;"	m	struct:__anon10
+identsize	include/bbTga.h	/^	GLubyte		identsize;			\/* size of ID field that follows 18 byte header (0 usually) *\/$/;"	m	struct:__anon4
+imagetype	include/bbTga.h	/^	GLubyte		imagetype;			\/* type of image 0=none,1=indexed,2=rgb,3=grey,+8=rle packed *\/$/;"	m	struct:__anon4
+indexBuffer	build/bbMesh.c	/^	GLuint	indexBuffer;$/;"	m	struct:BBMesh_s	file:
+indexBuffer	src/bbMesh.c	/^	GLuint	indexBuffer;$/;"	m	struct:BBMesh_s	file:
+indexCount	build/bbMesh.c	/^	GLuint	indexCount;$/;"	m	struct:BBMesh_s	file:
+indexCount	src/bbMesh.c	/^	GLuint	indexCount;$/;"	m	struct:BBMesh_s	file:
+indices	build/bbMesh.c	/^	GLuint*	indices;$/;"	m	struct:BBMesh_s	file:
+indices	src/bbMesh.c	/^	GLuint*	indices;$/;"	m	struct:BBMesh_s	file:
+initDirectSound	src/bbWinMain.c	/^static int initDirectSound (DWORD coopLevel)$/;"	f	file:
+initDirectSound	src/bbWinMain_perfcount.c	/^static int initDirectSound (DWORD coopLevel)$/;"	f	file:
+initMain	src/bbWinMain.c	/^static GLint initMain (int argc, char* argv[])$/;"	f	file:
+initMain	src/bbWinMain_perfcount.c	/^static GLint initMain (int argc, char* argv[])$/;"	f	file:
+init_perf_counter	src/bbWinMain_perfcount.c	/^void init_perf_counter()$/;"	f
+initializeWindow	src/bbWinMain.c	/^static HWND initializeWindow (HINSTANCE hInstance, int nCmdShow)$/;"	f	file:
+initializeWindow	src/bbWinMain_perfcount.c	/^static HWND initializeWindow (HINSTANCE hInstance, int nCmdShow)$/;"	f	file:
+isPow2	build/bbTexture.c	/^static GLboolean isPow2 (GLuint value)$/;"	f	file:
+isPow2	src/bbTexture.c	/^static GLboolean isPow2 (GLuint value)$/;"	f	file:
+kbhit	build/bbLinuxMain.c	/^int kbhit(void)$/;"	f
+kbhit	src/bbLinuxMain.c	/^int kbhit(void)$/;"	f
+khronos_boolean_enum_t	include/KHR/khrplatform.h	/^} khronos_boolean_enum_t;$/;"	t	typeref:enum:__anon9
+khronos_float_t	include/KHR/khrplatform.h	/^typedef          float         khronos_float_t;$/;"	t
+khronos_int16_t	include/KHR/khrplatform.h	/^typedef signed   short int     khronos_int16_t;$/;"	t
+khronos_int32_t	include/KHR/khrplatform.h	/^typedef __int32                 khronos_int32_t;$/;"	t
+khronos_int32_t	include/KHR/khrplatform.h	/^typedef int                     khronos_int32_t;$/;"	t
+khronos_int32_t	include/KHR/khrplatform.h	/^typedef int32_t                 khronos_int32_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef __int64                 khronos_int64_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef int64_t                 khronos_int64_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef long int                khronos_int64_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef long long int           khronos_int64_t;$/;"	t
+khronos_int8_t	include/KHR/khrplatform.h	/^typedef signed   char          khronos_int8_t;$/;"	t
+khronos_intptr_t	include/KHR/khrplatform.h	/^typedef signed   long  int     khronos_intptr_t;$/;"	t
+khronos_ssize_t	include/KHR/khrplatform.h	/^typedef signed   long  int     khronos_ssize_t;$/;"	t
+khronos_stime_nanoseconds_t	include/KHR/khrplatform.h	/^typedef khronos_int64_t        khronos_stime_nanoseconds_t;$/;"	t
+khronos_uint16_t	include/KHR/khrplatform.h	/^typedef unsigned short int     khronos_uint16_t;$/;"	t
+khronos_uint32_t	include/KHR/khrplatform.h	/^typedef uint32_t                khronos_uint32_t;$/;"	t
+khronos_uint32_t	include/KHR/khrplatform.h	/^typedef unsigned __int32        khronos_uint32_t;$/;"	t
+khronos_uint32_t	include/KHR/khrplatform.h	/^typedef unsigned int            khronos_uint32_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef uint64_t                khronos_uint64_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef unsigned __int64        khronos_uint64_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef unsigned long int       khronos_uint64_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef unsigned long long int  khronos_uint64_t;$/;"	t
+khronos_uint8_t	include/KHR/khrplatform.h	/^typedef unsigned char          khronos_uint8_t;$/;"	t
+khronos_uintptr_t	include/KHR/khrplatform.h	/^typedef unsigned long  int     khronos_uintptr_t;$/;"	t
+khronos_usize_t	include/KHR/khrplatform.h	/^typedef unsigned long  int     khronos_usize_t;$/;"	t
+khronos_utime_nanoseconds_t	include/KHR/khrplatform.h	/^typedef khronos_uint64_t       khronos_utime_nanoseconds_t;$/;"	t
+lastCameraUpdate	build/bbPinball.c	/^    GLint                   lastCameraUpdate;$/;"	m	struct:BBPinball_s	file:
+lastCameraUpdate	src/bbPinball.c	/^    GLint                   lastCameraUpdate;$/;"	m	struct:BBPinball_s	file:
+lastPos	build/bbPinball.c	/^    GLfloat lastPos[3];$/;"	m	struct:BBBall_s	file:
+lastPos	src/bbPinball.c	/^    GLfloat lastPos[3];$/;"	m	struct:BBBall_s	file:
+lastUpdate	build/bbPinball.c	/^    GLint                   lastUpdate;$/;"	m	struct:BBPinball_s	file:
+lastUpdate	src/bbPinball.c	/^    GLint                   lastUpdate;$/;"	m	struct:BBPinball_s	file:
+ledMeshes	build/bbPinball.c	/^    BBMesh**                ledMeshes;$/;"	m	struct:BBPinball_s	file:
+ledMeshes	src/bbPinball.c	/^    BBMesh**                ledMeshes;$/;"	m	struct:BBPinball_s	file:
+ledNumber	build/bbPinball.c	/^    GLint                   ledNumber;$/;"	m	struct:BBPinball_s	file:
+ledNumber	include/bbMaterial.h	/^    int ledNumber;$/;"	m	struct:__anon10
+ledNumber	src/bbPinball.c	/^    GLint                   ledNumber;$/;"	m	struct:BBPinball_s	file:
+ledNumberLoc	include/bbMaterial.h	/^	GLint ledNumberLoc;$/;"	m	struct:__anon10
+left	build/bbCollisionMap.c	/^	GLfloat		left;$/;"	m	struct:BBCollisionMap_s	file:
+left	src/bbCollisionMap.c	/^	GLfloat		left;$/;"	m	struct:BBCollisionMap_s	file:
+leftDown	build/bbPinball.c	/^    GLboolean               leftDown;$/;"	m	struct:BBPinball_s	file:
+leftDown	src/bbPinball.c	/^    GLboolean               leftDown;$/;"	m	struct:BBPinball_s	file:
+leftLightsOffCount	build/bbPinball.c	/^    GLint                   leftLightsOffCount;$/;"	m	struct:BBPlayer_s	file:
+leftLightsOffCount	src/bbPinball.c	/^    GLint                   leftLightsOffCount;$/;"	m	struct:BBPlayer_s	file:
+leftRacketKeyDown	build/bbPinball.c	/^    GLboolean               leftRacketKeyDown;$/;"	m	struct:BBPinball_s	file:
+leftRacketKeyDown	src/bbPinball.c	/^    GLboolean               leftRacketKeyDown;$/;"	m	struct:BBPinball_s	file:
+lightAlphaList	build/bbPinball.c	/^    GLfloat*                lightAlphaList;$/;"	m	struct:BBPinball_s	file:
+lightAlphaList	src/bbPinball.c	/^    GLfloat*                lightAlphaList;$/;"	m	struct:BBPinball_s	file:
+lightAlphaLoc	include/bbMaterial.h	/^	GLint lightAlphaLoc;$/;"	m	struct:__anon10
+lightCurrentAlpha	build/bbPinball.c	/^    GLfloat                 lightCurrentAlpha;$/;"	m	struct:BBPinball_s	file:
+lightCurrentAlpha	src/bbPinball.c	/^    GLfloat                 lightCurrentAlpha;$/;"	m	struct:BBPinball_s	file:
+lightIntensityLoc	include/bbMaterial.h	/^	GLint lightIntensityLoc;$/;"	m	struct:__anon10
+lightMeshes	build/bbPinball.c	/^    BBMesh**                lightMeshes;$/;"	m	struct:BBPinball_s	file:
+lightMeshes	src/bbPinball.c	/^    BBMesh**                lightMeshes;$/;"	m	struct:BBPinball_s	file:
+lightOnList	build/bbPinball.c	/^    GLboolean*              lightOnList;$/;"	m	struct:BBPlayer_s	file:
+lightOnList	src/bbPinball.c	/^    GLboolean*              lightOnList;$/;"	m	struct:BBPlayer_s	file:
+lightPosLoc	include/bbMaterial.h	/^	GLint lightPosLoc;$/;"	m	struct:__anon10
+load	include/bbPinball.h	/^	LoadSoundFunc	load;$/;"	m	struct:BBSoundInterface_s
+loadSound	src/bbWinMain.c	/^static GLuint loadSound (const char* filename)$/;"	f	file:
+loadSound	src/bbWinMain_perfcount.c	/^static GLuint loadSound (const char* filename)$/;"	f	file:
+lookAt	build/bbPinball.c	/^    GLfloat                 lookAt[3];$/;"	m	struct:BBPinball_s	file:
+lookAt	src/bbPinball.c	/^    GLfloat                 lookAt[3];$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketAngle	build/bbPinball.c	/^    GLfloat                 lowerLeftRacketAngle;$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketAngle	src/bbPinball.c	/^    GLfloat                 lowerLeftRacketAngle;$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketAngleVel	build/bbPinball.c	/^    GLfloat                 lowerLeftRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketAngleVel	src/bbPinball.c	/^    GLfloat                 lowerLeftRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketMatrix	build/bbPinball.c	/^    GLfloat                 lowerLeftRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketMatrix	src/bbPinball.c	/^    GLfloat                 lowerLeftRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketMesh	build/bbPinball.c	/^    BBMesh*                 lowerLeftRacketMesh;$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketMesh	src/bbPinball.c	/^    BBMesh*                 lowerLeftRacketMesh;$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketShadowMesh	build/bbPinball.c	/^    BBMesh*                 lowerLeftRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+lowerLeftRacketShadowMesh	src/bbPinball.c	/^    BBMesh*                 lowerLeftRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketAngle	build/bbPinball.c	/^    GLfloat                 lowerRightRacketAngle;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketAngle	src/bbPinball.c	/^    GLfloat                 lowerRightRacketAngle;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketAngleVel	build/bbPinball.c	/^    GLfloat                 lowerRightRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketAngleVel	src/bbPinball.c	/^    GLfloat                 lowerRightRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketMatrix	build/bbPinball.c	/^    GLfloat                 lowerRightRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketMatrix	src/bbPinball.c	/^    GLfloat                 lowerRightRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketMesh	build/bbPinball.c	/^    BBMesh*                 lowerRightRacketMesh;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketMesh	src/bbPinball.c	/^    BBMesh*                 lowerRightRacketMesh;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketShadowMesh	build/bbPinball.c	/^    BBMesh*                 lowerRightRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+lowerRightRacketShadowMesh	src/bbPinball.c	/^    BBMesh*                 lowerRightRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+m_apDSBuffer	src/bbWinMain.c	/^	IDirectSoundBuffer*		m_apDSBuffer;$/;"	m	struct:DXSound_s	file:
+m_apDSBuffer	src/bbWinMain_perfcount.c	/^	IDirectSoundBuffer*		m_apDSBuffer;$/;"	m	struct:DXSound_s	file:
+m_ck	src/bbWinMain.c	/^	MMCKINFO      m_ck;          \/\/ Multimedia RIFF chunk$/;"	m	struct:WaveFile_s	file:
+m_ck	src/bbWinMain_perfcount.c	/^	MMCKINFO      m_ck;          \/\/ Multimedia RIFF chunk$/;"	m	struct:WaveFile_s	file:
+m_ckRiff	src/bbWinMain.c	/^	MMCKINFO      m_ckRiff;      \/\/ Use in opening a WAVE file$/;"	m	struct:WaveFile_s	file:
+m_ckRiff	src/bbWinMain_perfcount.c	/^	MMCKINFO      m_ckRiff;      \/\/ Use in opening a WAVE file$/;"	m	struct:WaveFile_s	file:
+m_dwDSBufferSize	src/bbWinMain.c	/^	DWORD					m_dwDSBufferSize;$/;"	m	struct:DXSound_s	file:
+m_dwDSBufferSize	src/bbWinMain_perfcount.c	/^	DWORD					m_dwDSBufferSize;$/;"	m	struct:DXSound_s	file:
+m_dwSize	src/bbWinMain.c	/^	DWORD         m_dwSize;      \/\/ The size of the wave file$/;"	m	struct:WaveFile_s	file:
+m_dwSize	src/bbWinMain_perfcount.c	/^	DWORD         m_dwSize;      \/\/ The size of the wave file$/;"	m	struct:WaveFile_s	file:
+m_hmmio	src/bbWinMain.c	/^	HMMIO         m_hmmio;       \/\/ MM I\/O handle for the WAVE$/;"	m	struct:WaveFile_s	file:
+m_hmmio	src/bbWinMain_perfcount.c	/^	HMMIO         m_hmmio;       \/\/ MM I\/O handle for the WAVE$/;"	m	struct:WaveFile_s	file:
+m_pWaveFile	src/bbWinMain.c	/^	WaveFile*				m_pWaveFile;$/;"	m	struct:DXSound_s	file:
+m_pWaveFile	src/bbWinMain_perfcount.c	/^	WaveFile*				m_pWaveFile;$/;"	m	struct:DXSound_s	file:
+m_pwfx	src/bbWinMain.c	/^	WAVEFORMATEX* m_pwfx;        \/\/ Pointer to WAVEFORMATEX structure$/;"	m	struct:WaveFile_s	file:
+m_pwfx	src/bbWinMain_perfcount.c	/^	WAVEFORMATEX* m_pwfx;        \/\/ Pointer to WAVEFORMATEX structure$/;"	m	struct:WaveFile_s	file:
+main	build/bbLinuxMain.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/bbLinuxMain.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/bbVersatileMain.c	/^int main(int argc, char* argv[])$/;"	f
+mainContext	include/bbPinball.h	/^	EGLContext	mainContext;$/;"	m	struct:BBPinballCreateParams_s
+mainSurface	include/bbPinball.h	/^	EGLSurface	mainSurface;$/;"	m	struct:BBPinballCreateParams_s
+mainWndProc	src/bbWinMain.c	/^LONG WINAPI mainWndProc (HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f
+mainWndProc	src/bbWinMain_perfcount.c	/^LONG WINAPI mainWndProc (HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f
+matStore	build/bbMesh.c	/^	BBMaterialStore* matStore;$/;"	m	struct:BBMesh_s	file:
+matStore	build/bbMeshStore.c	/^	BBMaterialStore*	matStore;$/;"	m	struct:BBMeshStore_s	file:
+matStore	build/bbPinball.c	/^    BBMaterialStore*        matStore;$/;"	m	struct:BBPinball_s	file:
+matStore	src/bbMesh.c	/^	BBMaterialStore* matStore;$/;"	m	struct:BBMesh_s	file:
+matStore	src/bbMeshStore.c	/^	BBMaterialStore*	matStore;$/;"	m	struct:BBMeshStore_s	file:
+matStore	src/bbPinball.c	/^    BBMaterialStore*        matStore;$/;"	m	struct:BBPinball_s	file:
+material	build/bbMesh.c	/^	BBMaterial*	material;$/;"	m	struct:BBSubMesh_s	file:
+material	src/bbMesh.c	/^	BBMaterial*	material;$/;"	m	struct:BBSubMesh_s	file:
+maxActiveCounters	src/bbWinMain_perfcount.c	/^        int         maxActiveCounters;$/;"	m	struct:__anon2	file:
+maxFrames	build/bbPinball.c	/^    int                     maxFrames;$/;"	m	struct:BBPinball_s	file:
+maxFrames	include/bbPinball.h	/^	int			maxFrames;$/;"	m	struct:BBPinballCreateParams_s
+maxFrames	src/bbPinball.c	/^    int                     maxFrames;$/;"	m	struct:BBPinball_s	file:
+memcpy_r	build/bbTga.c	/^static void memcpy_r (void* tgt, const void* src, GLuint size)$/;"	f	file:
+memcpy_r	src/bbTga.c	/^static void memcpy_r (void* tgt, const void* src, GLuint size)$/;"	f	file:
+menuAlpha	build/bbPinball.c	/^    GLfloat                 menuAlpha;$/;"	m	struct:BBPinball_s	file:
+menuAlpha	src/bbPinball.c	/^    GLfloat                 menuAlpha;$/;"	m	struct:BBPinball_s	file:
+menuFadeTime	build/bbPinball.c	/^    GLint                   menuFadeTime;$/;"	m	struct:BBPinball_s	file:
+menuFadeTime	src/bbPinball.c	/^    GLint                   menuFadeTime;$/;"	m	struct:BBPinball_s	file:
+menuInactive	build/bbPinball.c	/^    GLboolean               menuInactive;$/;"	m	struct:BBPinball_s	file:
+menuInactive	src/bbPinball.c	/^    GLboolean               menuInactive;$/;"	m	struct:BBPinball_s	file:
+menuInactivityTimer	build/bbPinball.c	/^    GLint                   menuInactivityTimer;$/;"	m	struct:BBPinball_s	file:
+menuInactivityTimer	src/bbPinball.c	/^    GLint                   menuInactivityTimer;$/;"	m	struct:BBPinball_s	file:
+menuSelection	build/bbPinball.c	/^    GLint                   menuSelection;$/;"	m	struct:BBPinball_s	file:
+menuSelection	src/bbPinball.c	/^    GLint                   menuSelection;$/;"	m	struct:BBPinball_s	file:
+mesh	build/bbMeshStore.c	/^	BBMesh*		mesh;$/;"	m	struct:BBMeshList_s	file:
+mesh	src/bbMeshStore.c	/^	BBMesh*		mesh;$/;"	m	struct:BBMeshList_s	file:
+meshStore	build/bbPinball.c	/^    BBMeshStore*            meshStore;$/;"	m	struct:BBPinball_s	file:
+meshStore	src/bbPinball.c	/^    BBMeshStore*            meshStore;$/;"	m	struct:BBPinball_s	file:
+meshStore2	build/bbPinball.c	/^    BBMeshStore*            meshStore2;$/;"	m	struct:BBPinball_s	file:
+meshStore2	src/bbPinball.c	/^    BBMeshStore*            meshStore2;$/;"	m	struct:BBPinball_s	file:
+messagePump	src/bbWinMain.c	/^static void messagePump ()$/;"	f	file:
+messagePump	src/bbWinMain_perfcount.c	/^static void messagePump ()$/;"	f	file:
+middleDown	build/bbPinball.c	/^    GLboolean               middleDown;$/;"	m	struct:BBPinball_s	file:
+middleDown	src/bbPinball.c	/^    GLboolean               middleDown;$/;"	m	struct:BBPinball_s	file:
+monitor	src/bbWinMain_perfcount.c	/^GLuint monitor;$/;"	v
+moveBallDown	build/bbPinball.c	/^    GLboolean               moveBallDown;$/;"	m	struct:BBPinball_s	file:
+moveBallDown	src/bbPinball.c	/^    GLboolean               moveBallDown;$/;"	m	struct:BBPinball_s	file:
+moveBallLeft	build/bbPinball.c	/^    GLboolean               moveBallLeft;$/;"	m	struct:BBPinball_s	file:
+moveBallLeft	src/bbPinball.c	/^    GLboolean               moveBallLeft;$/;"	m	struct:BBPinball_s	file:
+moveBallRight	build/bbPinball.c	/^    GLboolean               moveBallRight;$/;"	m	struct:BBPinball_s	file:
+moveBallRight	src/bbPinball.c	/^    GLboolean               moveBallRight;$/;"	m	struct:BBPinball_s	file:
+moveBallUp	build/bbPinball.c	/^    GLboolean               moveBallUp;$/;"	m	struct:BBPinball_s	file:
+moveBallUp	src/bbPinball.c	/^    GLboolean               moveBallUp;$/;"	m	struct:BBPinball_s	file:
+musicPlaying	build/bbPinball.c	/^    GLboolean               musicPlaying;$/;"	m	struct:BBPinball_s	file:
+musicPlaying	src/bbPinball.c	/^    GLboolean               musicPlaying;$/;"	m	struct:BBPinball_s	file:
+name	build/bbMesh.c	/^	char*	name;$/;"	m	struct:BBMesh_s	file:
+name	build/bbPinball.c	/^    char name[4];$/;"	m	struct:BBHighscore_s	file:
+name	build/bbShaderStack.c	/^	char*			name;$/;"	m	struct:BBShaderObject_s	file:
+name	build/bbTexture.c	/^	char*		name;$/;"	m	struct:BBTexture_s	file:
+name	include/bbMaterial.h	/^	char*			name;$/;"	m	struct:BBMaterial_s
+name	src/bbMesh.c	/^	char*	name;$/;"	m	struct:BBMesh_s	file:
+name	src/bbPinball.c	/^    char name[4];$/;"	m	struct:BBHighscore_s	file:
+name	src/bbShaderStack.c	/^	char*			name;$/;"	m	struct:BBShaderObject_s	file:
+name	src/bbTexture.c	/^	char*		name;$/;"	m	struct:BBTexture_s	file:
+next	build/bbMesh.c	/^	BBSubMesh*	next;$/;"	m	struct:BBSubMesh_s	file:
+next	build/bbMeshStore.c	/^	BBMeshList*	next;$/;"	m	struct:BBMeshList_s	file:
+next	build/bbPinball.c	/^    BBRecordChunk*  next;$/;"	m	struct:BBRecordChunk_s	file:
+next	build/bbShaderStack.c	/^	BBProgramObject*	next;$/;"	m	struct:BBProgramObject_s	file:
+next	build/bbShaderStack.c	/^	BBShaderObject*	next;$/;"	m	struct:BBShaderObject_s	file:
+next	build/bbTexture.c	/^	BBTexture*	next;$/;"	m	struct:BBTexture_s	file:
+next	include/bbMaterial.h	/^	struct BBMaterial_s*		next;$/;"	m	struct:BBMaterial_s	typeref:struct:BBMaterial_s::BBMaterial_s
+next	src/bbMesh.c	/^	BBSubMesh*	next;$/;"	m	struct:BBSubMesh_s	file:
+next	src/bbMeshStore.c	/^	BBMeshList*	next;$/;"	m	struct:BBMeshList_s	file:
+next	src/bbPinball.c	/^    BBRecordChunk*  next;$/;"	m	struct:BBRecordChunk_s	file:
+next	src/bbShaderStack.c	/^	BBProgramObject*	next;$/;"	m	struct:BBProgramObject_s	file:
+next	src/bbShaderStack.c	/^	BBShaderObject*	next;$/;"	m	struct:BBShaderObject_s	file:
+next	src/bbTexture.c	/^	BBTexture*	next;$/;"	m	struct:BBTexture_s	file:
+nextLightCycleIndex	build/bbPinball.c	/^    GLint                   nextLightCycleIndex;$/;"	m	struct:BBPinball_s	file:
+nextLightCycleIndex	src/bbPinball.c	/^    GLint                   nextLightCycleIndex;$/;"	m	struct:BBPinball_s	file:
+nextLightCycleTime	build/bbPinball.c	/^    GLint                   nextLightCycleTime;$/;"	m	struct:BBPinball_s	file:
+nextLightCycleTime	src/bbPinball.c	/^    GLint                   nextLightCycleTime;$/;"	m	struct:BBPinball_s	file:
+normalPtr	build/bbMesh.c	/^	void*	normalPtr;$/;"	m	struct:BBMesh_s	file:
+normalPtr	src/bbMesh.c	/^	void*	normalPtr;$/;"	m	struct:BBMesh_s	file:
+nudge	build/bbPinball.c	/^    GLboolean               nudge;$/;"	m	struct:BBPinball_s	file:
+nudge	src/bbPinball.c	/^    GLboolean               nudge;$/;"	m	struct:BBPinball_s	file:
+nudgeVel	build/bbPinball.c	/^    GLfloat                 nudgeVel;$/;"	m	struct:BBPinball_s	file:
+nudgeVel	src/bbPinball.c	/^    GLfloat                 nudgeVel;$/;"	m	struct:BBPinball_s	file:
+numCounters	src/bbWinMain_perfcount.c	/^        int         numCounters;$/;"	m	struct:__anon2	file:
+numPlayers	build/bbPinball.c	/^    GLuint                  numPlayers;$/;"	m	struct:BBPinball_s	file:
+numPlayers	src/bbPinball.c	/^    GLuint                  numPlayers;$/;"	m	struct:BBPinball_s	file:
+outerObjectStore	build/bbPinball.c	/^    BBMeshStore*            outerObjectStore;$/;"	m	struct:BBPinball_s	file:
+outerObjectStore	src/bbPinball.c	/^    BBMeshStore*            outerObjectStore;$/;"	m	struct:BBPinball_s	file:
+outputMultiplier	build/bbPinball.c	/^    GLfloat                 outputMultiplier;$/;"	m	struct:BBPinball_s	file:
+outputMultiplier	src/bbPinball.c	/^    GLfloat                 outputMultiplier;$/;"	m	struct:BBPinball_s	file:
+outputMultiplier2Loc	include/bbMaterial.h	/^	GLint outputMultiplier2Loc;$/;"	m	struct:__anon10
+outputMultiplier3Loc	include/bbMaterial.h	/^	GLint outputMultiplier3Loc;$/;"	m	struct:__anon10
+outputMultiplierLoc	include/bbMaterial.h	/^	GLint outputMultiplierLoc;$/;"	m	struct:__anon10
+pDD	src/SurfaceAdopter.h	/^		LPDIRECTDRAW                pDD;        \/\/ DirectDraw object$/;"	m	struct:RenderingSurface_s
+pDDSOverlay	src/SurfaceAdopter.h	/^		LPDIRECTDRAWSURFACE         pDDSOverlay; \/\/ The overlay primary.$/;"	m	struct:RenderingSurface_s
+pDDSPrimary	src/SurfaceAdopter.h	/^		LPDIRECTDRAWSURFACE         pDDSPrimary; \/\/ Primary Surface.$/;"	m	struct:RenderingSurface_s
+params	build/bbPinball.c	/^    BBPinballCreateParams   params;$/;"	m	struct:BBPinball_s	file:
+params	src/bbPinball.c	/^    BBPinballCreateParams   params;$/;"	m	struct:BBPinball_s	file:
+play	include/bbPinball.h	/^	PlaySoundFunc	play;$/;"	m	struct:BBSoundInterface_s
+playSound	src/bbWinMain.c	/^static GLuint playSound (GLuint sound, GLfloat volume, GLboolean repeat)$/;"	f	file:
+playSound	src/bbWinMain_perfcount.c	/^static GLuint playSound (GLuint sound, GLfloat volume, GLboolean repeat)$/;"	f	file:
+playbackOn	build/bbPinball.c	/^    GLboolean               playbackOn;$/;"	m	struct:BBPinball_s	file:
+playbackOn	src/bbPinball.c	/^    GLboolean               playbackOn;$/;"	m	struct:BBPinball_s	file:
+playbackStartTime	build/bbPinball.c	/^    GLint                   playbackStartTime;$/;"	m	struct:BBPinball_s	file:
+playbackStartTime	src/bbPinball.c	/^    GLint                   playbackStartTime;$/;"	m	struct:BBPinball_s	file:
+player	build/bbPinball.c	/^    BBPlayer*               player;$/;"	m	struct:BBPinball_s	file:
+player	src/bbPinball.c	/^    BBPlayer*               player;$/;"	m	struct:BBPinball_s	file:
+players	build/bbPinball.c	/^    BBPlayer                players[BB_PINBALL_MAX_PLAYERS];$/;"	m	struct:BBPinball_s	file:
+players	src/bbPinball.c	/^    BBPlayer                players[BB_PINBALL_MAX_PLAYERS];$/;"	m	struct:BBPinball_s	file:
+pointerX	build/bbPinball.c	/^    GLint                   pointerX;$/;"	m	struct:BBPinball_s	file:
+pointerX	src/bbPinball.c	/^    GLint                   pointerX;$/;"	m	struct:BBPinball_s	file:
+pointerY	build/bbPinball.c	/^    GLint                   pointerY;$/;"	m	struct:BBPinball_s	file:
+pointerY	src/bbPinball.c	/^    GLint                   pointerY;$/;"	m	struct:BBPinball_s	file:
+pos	build/bbPinball.c	/^    GLfloat pos[3];$/;"	m	struct:BBBall_s	file:
+pos	src/bbPinball.c	/^    GLfloat pos[3];$/;"	m	struct:BBBall_s	file:
+positionPtr	build/bbMesh.c	/^	void*	positionPtr;$/;"	m	struct:BBMesh_s	file:
+positionPtr	src/bbMesh.c	/^	void*	positionPtr;$/;"	m	struct:BBMesh_s	file:
+program	build/bbShaderStack.c	/^	GLuint				program;$/;"	m	struct:BBProgramObject_s	file:
+program	include/bbMaterial.h	/^	GLuint			program;$/;"	m	struct:BBMaterial_s
+program	src/bbShaderStack.c	/^	GLuint				program;$/;"	m	struct:BBProgramObject_s	file:
+projMatLoc	include/bbMaterial.h	/^	GLint projMatLoc;$/;"	m	struct:__anon10
+projMatrix	build/bbPinball.c	/^    GLfloat                 projMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+projMatrix	src/bbPinball.c	/^    GLfloat                 projMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+quit	build/bbPinball.c	/^    GLboolean               quit;$/;"	m	struct:BBPinball_s	file:
+quit	src/bbPinball.c	/^    GLboolean               quit;$/;"	m	struct:BBPinball_s	file:
+rBits	include/bbPinballDefines.h	/^	int    rBits;$/;"	m	struct:__anon5
+readString	build/bbMeshStore.c	/^char* readString (FILE* f)$/;"	f
+readString	src/bbMeshStore.c	/^char* readString (FILE* f)$/;"	f
+recordChunkCount	build/bbPinball.c	/^    GLint                   recordChunkCount;$/;"	m	struct:BBPinball_s	file:
+recordChunkCount	src/bbPinball.c	/^    GLint                   recordChunkCount;$/;"	m	struct:BBPinball_s	file:
+recordOn	build/bbPinball.c	/^    GLboolean               recordOn;$/;"	m	struct:BBPinball_s	file:
+recordOn	src/bbPinball.c	/^    GLboolean               recordOn;$/;"	m	struct:BBPinball_s	file:
+recordStartTime	build/bbPinball.c	/^    GLint                   recordStartTime;$/;"	m	struct:BBPinball_s	file:
+recordStartTime	src/bbPinball.c	/^    GLint                   recordStartTime;$/;"	m	struct:BBPinball_s	file:
+right	build/bbCollisionMap.c	/^	GLfloat		right;$/;"	m	struct:BBCollisionMap_s	file:
+right	src/bbCollisionMap.c	/^	GLfloat		right;$/;"	m	struct:BBCollisionMap_s	file:
+rightDown	build/bbPinball.c	/^    GLboolean               rightDown;$/;"	m	struct:BBPinball_s	file:
+rightDown	src/bbPinball.c	/^    GLboolean               rightDown;$/;"	m	struct:BBPinball_s	file:
+rightLightsOffCount	build/bbPinball.c	/^    GLint                   rightLightsOffCount;$/;"	m	struct:BBPlayer_s	file:
+rightLightsOffCount	src/bbPinball.c	/^    GLint                   rightLightsOffCount;$/;"	m	struct:BBPlayer_s	file:
+rightRacketKeyDown	build/bbPinball.c	/^    GLboolean               rightRacketKeyDown;$/;"	m	struct:BBPinball_s	file:
+rightRacketKeyDown	src/bbPinball.c	/^    GLboolean               rightRacketKeyDown;$/;"	m	struct:BBPinball_s	file:
+rs	src/SurfaceAdopter.c	/^RECT rs;$/;"	v
+sampleBuffers	include/bbPinballDefines.h	/^	int    sampleBuffers;$/;"	m	struct:__anon5
+samples	include/bbPinballDefines.h	/^	int    samples;$/;"	m	struct:__anon5
+score	build/bbPinball.c	/^    GLuint                  score;$/;"	m	struct:BBPlayer_s	file:
+score	build/bbPinball.c	/^    GLuint score;$/;"	m	struct:BBHighscore_s	file:
+score	src/bbPinball.c	/^    GLuint                  score;$/;"	m	struct:BBPlayer_s	file:
+score	src/bbPinball.c	/^    GLuint score;$/;"	m	struct:BBHighscore_s	file:
+scoreMultiplier	build/bbPinball.c	/^    GLuint                  scoreMultiplier;$/;"	m	struct:BBPlayer_s	file:
+scoreMultiplier	src/bbPinball.c	/^    GLuint                  scoreMultiplier;$/;"	m	struct:BBPlayer_s	file:
+scorePeek	build/bbPinball.c	/^    GLboolean               scorePeek;$/;"	m	struct:BBPinball_s	file:
+scorePeek	src/bbPinball.c	/^    GLboolean               scorePeek;$/;"	m	struct:BBPinball_s	file:
+sensorDownList	build/bbPinball.c	/^    GLboolean*              sensorDownList;$/;"	m	struct:BBPinball_s	file:
+sensorDownList	src/bbPinball.c	/^    GLboolean*              sensorDownList;$/;"	m	struct:BBPinball_s	file:
+sfxList	build/bbPinball.c	/^    GLuint                  sfxList[BB_SFX_MAX];$/;"	m	struct:BBPinball_s	file:
+sfxList	src/bbPinball.c	/^    GLuint                  sfxList[BB_SFX_MAX];$/;"	m	struct:BBPinball_s	file:
+shader	build/bbShaderStack.c	/^	GLuint			shader;$/;"	m	struct:BBShaderObject_s	file:
+shader	src/bbShaderStack.c	/^	GLuint			shader;$/;"	m	struct:BBShaderObject_s	file:
+shaderStack	build/bbPinball.c	/^    BBShaderStack*          shaderStack;$/;"	m	struct:BBPinball_s	file:
+shaderStack	src/bbPinball.c	/^    BBShaderStack*          shaderStack;$/;"	m	struct:BBPinball_s	file:
+showPlayerTime	build/bbPinball.c	/^    GLint                   showPlayerTime;$/;"	m	struct:BBPinball_s	file:
+showPlayerTime	src/bbPinball.c	/^    GLint                   showPlayerTime;$/;"	m	struct:BBPinball_s	file:
+sinf	include/bbMath.h	16;"	d
+singleFrame	build/bbPinball.c	/^    int                     singleFrame;$/;"	m	struct:BBPinball_s	file:
+singleFrame	include/bbPinball.h	/^	int			singleFrame;$/;"	m	struct:BBPinballCreateParams_s
+singleFrame	src/bbPinball.c	/^    int                     singleFrame;$/;"	m	struct:BBPinball_s	file:
+smallFontMesh	build/bbPinball.c	/^    BBMesh*                 smallFontMesh;$/;"	m	struct:BBPinball_s	file:
+smallFontMesh	src/bbPinball.c	/^    BBMesh*                 smallFontMesh;$/;"	m	struct:BBPinball_s	file:
+sound	build/bbPinball.c	/^    BBSoundInterface        sound;$/;"	m	struct:BBPinball_s	file:
+sound	include/bbPinball.h	/^	BBSoundInterface*	sound;$/;"	m	struct:BBPinballCreateParams_s
+sound	src/bbPinball.c	/^    BBSoundInterface        sound;$/;"	m	struct:BBPinball_s	file:
+sqrtf	include/bbMath.h	18;"	d
+start	build/bbMesh.c	/^	GLuint		start;$/;"	m	struct:BBSubMesh_s	file:
+start	src/bbMesh.c	/^	GLuint		start;$/;"	m	struct:BBSubMesh_s	file:
+startLodLevel	build/bbPinball.c	/^    int                     startLodLevel;$/;"	m	struct:BBPinball_s	file:
+startLodLevel	include/bbPinball.h	/^	int			startLodLevel;$/;"	m	struct:BBPinballCreateParams_s
+startLodLevel	src/bbPinball.c	/^    int                     startLodLevel;$/;"	m	struct:BBPinball_s	file:
+startScreen2Mesh	build/bbPinball.c	/^    BBMesh*                 startScreen2Mesh;$/;"	m	struct:BBPinball_s	file:
+startScreen2Mesh	src/bbPinball.c	/^    BBMesh*                 startScreen2Mesh;$/;"	m	struct:BBPinball_s	file:
+startScreenBackMesh	build/bbPinball.c	/^    BBMesh*                 startScreenBackMesh;$/;"	m	struct:BBPinball_s	file:
+startScreenBackMesh	src/bbPinball.c	/^    BBMesh*                 startScreenBackMesh;$/;"	m	struct:BBPinball_s	file:
+startScreenMesh	build/bbPinball.c	/^    BBMesh*                 startScreenMesh;$/;"	m	struct:BBPinball_s	file:
+startScreenMesh	src/bbPinball.c	/^    BBMesh*                 startScreenMesh;$/;"	m	struct:BBPinball_s	file:
+stencilBits	include/bbPinballDefines.h	/^	int    stencilBits;$/;"	m	struct:__anon5
+stop	include/bbPinball.h	/^	StopSoundFunc	stop;$/;"	m	struct:BBSoundInterface_s
+stopSound	src/bbWinMain.c	/^static GLuint stopSound (GLuint sound)$/;"	f	file:
+stopSound	src/bbWinMain_perfcount.c	/^static GLuint stopSound (GLuint sound)$/;"	f	file:
+strdup	build/bbMesh.c	24;"	d	file:
+strdup	build/bbShaderStack.c	22;"	d	file:
+strdup	build/bbTexture.c	25;"	d	file:
+strdup	src/bbMesh.c	24;"	d	file:
+strdup	src/bbShaderStack.c	22;"	d	file:
+strdup	src/bbTexture.c	25;"	d	file:
+strdup	src/bbVersatileMain.c	/^char* strdup(const char *s)$/;"	f
+strdup	src/bbWinMain.c	31;"	d	file:
+strdup	src/bbWinMain_perfcount.c	30;"	d	file:
+stride	build/bbMesh.c	/^	GLsizei	stride;$/;"	m	struct:BBMesh_s	file:
+stride	src/bbMesh.c	/^	GLsizei	stride;$/;"	m	struct:BBMesh_s	file:
+surface	include/bbPinballDefines.h	/^	EGLSurface	surface;$/;"	m	struct:eglContext_s
+surfaceHeight	include/bbPinball.h	/^	GLuint		surfaceHeight;$/;"	m	struct:BBPinballCreateParams_s
+surfaceWidth	include/bbPinball.h	/^	GLuint		surfaceWidth;$/;"	m	struct:BBPinballCreateParams_s
+symbianPrintf	src/bbSymbianMain.cpp	/^	void symbianPrintf(char* string)$/;"	f
+tex1Ptr	build/bbMesh.c	/^	void*	tex1Ptr;$/;"	m	struct:BBMesh_s	file:
+tex1Ptr	src/bbMesh.c	/^	void*	tex1Ptr;$/;"	m	struct:BBMesh_s	file:
+tex2Loc	include/bbMaterial.h	/^	GLint tex2Loc;$/;"	m	struct:__anon10
+tex2Ptr	build/bbMesh.c	/^	void*	tex2Ptr;$/;"	m	struct:BBMesh_s	file:
+tex2Ptr	src/bbMesh.c	/^	void*	tex2Ptr;$/;"	m	struct:BBMesh_s	file:
+tex3Loc	include/bbMaterial.h	/^	GLint tex3Loc;$/;"	m	struct:__anon10
+tex4Loc	include/bbMaterial.h	/^	GLint tex4Loc;$/;"	m	struct:__anon10
+texBlendLoc	include/bbMaterial.h	/^	GLint texBlendLoc;$/;"	m	struct:__anon10
+texLoc	include/bbMaterial.h	/^	GLint texLoc;$/;"	m	struct:__anon10
+texStore	build/bbPinball.c	/^    BBTextureStore*         texStore;$/;"	m	struct:BBPinball_s	file:
+texStore	src/bbPinball.c	/^    BBTextureStore*         texStore;$/;"	m	struct:BBPinball_s	file:
+textShadowMesh	build/bbPinball.c	/^    BBMesh*                 textShadowMesh;$/;"	m	struct:BBPinball_s	file:
+textShadowMesh	src/bbPinball.c	/^    BBMesh*                 textShadowMesh;$/;"	m	struct:BBPinball_s	file:
+textures	include/bbMaterial.h	/^	BBTexture*		textures[BB_MATERIAL_MAX_TEXTURES];$/;"	m	struct:BBMaterial_s
+timeDelta	build/bbPinball.c	/^    GLfloat                 timeDelta;$/;"	m	struct:BBPinball_s	file:
+timeDelta	src/bbPinball.c	/^    GLfloat                 timeDelta;$/;"	m	struct:BBPinball_s	file:
+tone	include/bbMaterial.h	/^	GLboolean		tone;$/;"	m	struct:BBMaterial_s
+top	build/bbCollisionMap.c	/^	GLfloat		top;$/;"	m	struct:BBCollisionMap_s	file:
+top	src/bbCollisionMap.c	/^	GLfloat		top;$/;"	m	struct:BBCollisionMap_s	file:
+touchieDown	build/bbPinball.c	/^    GLboolean               touchieDown;$/;"	m	struct:BBPinball_s	file:
+touchieDown	src/bbPinball.c	/^    GLboolean               touchieDown;$/;"	m	struct:BBPinball_s	file:
+touchieMesh	build/bbPinball.c	/^    BBMesh*                 touchieMesh;$/;"	m	struct:BBPinball_s	file:
+touchieMesh	src/bbPinball.c	/^    BBMesh*                 touchieMesh;$/;"	m	struct:BBPinball_s	file:
+touchieMove	build/bbPinball.c	/^    GLfloat                 touchieMove;$/;"	m	struct:BBPinball_s	file:
+touchieMove	src/bbPinball.c	/^    GLfloat                 touchieMove;$/;"	m	struct:BBPinball_s	file:
+translateKey	src/bbWinMain.c	/^static GLint translateKey (GLint key)$/;"	f	file:
+translateKey	src/bbWinMain_perfcount.c	/^static GLint translateKey (GLint key)$/;"	f	file:
+turnUpperLightsOffTime	build/bbPinball.c	/^    GLint                   turnUpperLightsOffTime;$/;"	m	struct:BBPinball_s	file:
+turnUpperLightsOffTime	src/bbPinball.c	/^    GLint                   turnUpperLightsOffTime;$/;"	m	struct:BBPinball_s	file:
+type	build/bbTexture.c	/^	GLenum		type;$/;"	m	struct:BBTexture_s	file:
+type	src/bbTexture.c	/^	GLenum		type;$/;"	m	struct:BBTexture_s	file:
+uniformSetup	build/bbPinball.c	/^static void uniformSetup (void* userPtr, GLuint program, BBPinballUniformSetupCache* cache)$/;"	f	file:
+uniformSetup	src/bbPinball.c	/^static void uniformSetup (void* userPtr, GLuint program, BBPinballUniformSetupCache* cache)$/;"	f	file:
+uniformSetupCache	include/bbMaterial.h	/^	BBPinballUniformSetupCache uniformSetupCache;$/;"	m	struct:BBMaterial_s
+uniformSetupHUD	build/bbPinball.c	/^static void uniformSetupHUD (void* userPtr, GLuint program, BBPinballUniformSetupCache* cache)$/;"	f	file:
+uniformSetupHUD	src/bbPinball.c	/^static void uniformSetupHUD (void* userPtr, GLuint program, BBPinballUniformSetupCache* cache)$/;"	f	file:
+upperLeftRacketAngle	build/bbPinball.c	/^    GLfloat                 upperLeftRacketAngle;$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketAngle	src/bbPinball.c	/^    GLfloat                 upperLeftRacketAngle;$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketAngleVel	build/bbPinball.c	/^    GLfloat                 upperLeftRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketAngleVel	src/bbPinball.c	/^    GLfloat                 upperLeftRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketMatrix	build/bbPinball.c	/^    GLfloat                 upperLeftRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketMatrix	src/bbPinball.c	/^    GLfloat                 upperLeftRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketMesh	build/bbPinball.c	/^    BBMesh*                 upperLeftRacketMesh;$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketMesh	src/bbPinball.c	/^    BBMesh*                 upperLeftRacketMesh;$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketShadowMesh	build/bbPinball.c	/^    BBMesh*                 upperLeftRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+upperLeftRacketShadowMesh	src/bbPinball.c	/^    BBMesh*                 upperLeftRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketAngle	build/bbPinball.c	/^    GLfloat                 upperRightRacketAngle;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketAngle	src/bbPinball.c	/^    GLfloat                 upperRightRacketAngle;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketAngleVel	build/bbPinball.c	/^    GLfloat                 upperRightRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketAngleVel	src/bbPinball.c	/^    GLfloat                 upperRightRacketAngleVel;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketMatrix	build/bbPinball.c	/^    GLfloat                 upperRightRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+upperRightRacketMatrix	src/bbPinball.c	/^    GLfloat                 upperRightRacketMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+upperRightRacketMesh	build/bbPinball.c	/^    BBMesh*                 upperRightRacketMesh;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketMesh	src/bbPinball.c	/^    BBMesh*                 upperRightRacketMesh;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketShadowMesh	build/bbPinball.c	/^    BBMesh*                 upperRightRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+upperRightRacketShadowMesh	src/bbPinball.c	/^    BBMesh*                 upperRightRacketShadowMesh;$/;"	m	struct:BBPinball_s	file:
+usb	build/bbPinball.c	/^    USB*                    usb;$/;"	m	struct:BBPinball_s	file:
+usb	src/bbPinball.c	/^    USB*                    usb;$/;"	m	struct:BBPinball_s	file:
+useIBO	build/bbPinball.c	/^    int                     useIBO;$/;"	m	struct:BBPinball_s	file:
+useIBO	include/bbPinball.h	/^	int			useIBO;$/;"	m	struct:BBPinballCreateParams_s
+useIBO	src/bbPinball.c	/^    int                     useIBO;$/;"	m	struct:BBPinball_s	file:
+useVBO	build/bbPinball.c	/^    int                     useVBO;$/;"	m	struct:BBPinball_s	file:
+useVBO	include/bbPinball.h	/^	int			useVBO;$/;"	m	struct:BBPinballCreateParams_s
+useVBO	src/bbPinball.c	/^    int                     useVBO;$/;"	m	struct:BBPinball_s	file:
+valid	include/bbMaterial.h	/^	GLint valid;$/;"	m	struct:__anon10
+values	build/bbPinball.c	/^    GLfloat     values[BB_PINBALL_RECORD_VALUE_COUNT];$/;"	m	struct:BBRecordFrame_s	file:
+values	src/bbPinball.c	/^    GLfloat     values[BB_PINBALL_RECORD_VALUE_COUNT];$/;"	m	struct:BBRecordFrame_s	file:
+vec	build/bbPinball.c	/^    GLfloat vec[3];$/;"	m	struct:BBBallCollision_s	file:
+vec	src/bbPinball.c	/^    GLfloat vec[3];$/;"	m	struct:BBBallCollision_s	file:
+vel	build/bbPinball.c	/^    GLfloat vel[3];$/;"	m	struct:BBBall_s	file:
+vel	src/bbPinball.c	/^    GLfloat vel[3];$/;"	m	struct:BBBall_s	file:
+vertAngle	build/bbPinball.c	/^    GLfloat                 vertAngle;$/;"	m	struct:BBPinball_s	file:
+vertAngle	src/bbPinball.c	/^    GLfloat                 vertAngle;$/;"	m	struct:BBPinball_s	file:
+vertex	build/bbShaderStack.c	/^	BBShaderObject*		vertex;$/;"	m	struct:BBProgramObject_s	file:
+vertex	src/bbShaderStack.c	/^	BBShaderObject*		vertex;$/;"	m	struct:BBProgramObject_s	file:
+vertexBuffer	build/bbMesh.c	/^	GLuint	vertexBuffer;$/;"	m	struct:BBMesh_s	file:
+vertexBuffer	src/bbMesh.c	/^	GLuint	vertexBuffer;$/;"	m	struct:BBMesh_s	file:
+vertices	build/bbMesh.c	/^	void*	vertices;$/;"	m	struct:BBMesh_s	file:
+vertices	src/bbMesh.c	/^	void*	vertices;$/;"	m	struct:BBMesh_s	file:
+viewMatLoc	include/bbMaterial.h	/^	GLint viewMatLoc;$/;"	m	struct:__anon10
+viewMatrix	build/bbPinball.c	/^    GLfloat                 viewMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+viewMatrix	src/bbPinball.c	/^    GLfloat                 viewMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+viewNormalMatLoc	include/bbMaterial.h	/^	GLint viewNormalMatLoc;$/;"	m	struct:__anon10
+voidGlass	build/bbPinball.c	/^    BBMesh*                 voidGlass;$/;"	m	struct:BBPinball_s	file:
+voidGlass	src/bbPinball.c	/^    BBMesh*                 voidGlass;$/;"	m	struct:BBPinball_s	file:
+void_size_uint	build/bbMesh.c	/^typedef BBuint64 void_size_uint; $/;"	t	file:
+void_size_uint	build/bbMesh.c	/^typedef unsigned int void_size_uint;$/;"	t	file:
+void_size_uint	src/bbMesh.c	/^typedef BBuint64 void_size_uint; $/;"	t	file:
+void_size_uint	src/bbMesh.c	/^typedef unsigned int void_size_uint;$/;"	t	file:
+width	build/bbCollisionMap.c	/^	GLsizei		width;$/;"	m	struct:BBCollisionMap_s	file:
+width	build/bbTexture.c	/^	GLsizei		width;$/;"	m	struct:BBTexture_s	file:
+width	include/bbTga.h	/^	GLushort	width;				\/* image width in pixels *\/$/;"	m	struct:__anon4
+width	src/bbCollisionMap.c	/^	GLsizei		width;$/;"	m	struct:BBCollisionMap_s	file:
+width	src/bbTexture.c	/^	GLsizei		width;$/;"	m	struct:BBTexture_s	file:
+winH	include/bbPinballDefines.h	/^    int    winH;$/;"	m	struct:__anon5
+winW	include/bbPinballDefines.h	/^    int    winW;$/;"	m	struct:__anon5
+worldMatLoc	include/bbMaterial.h	/^	GLint worldMatLoc;$/;"	m	struct:__anon10
+worldMatrix	build/bbPinball.c	/^    GLfloat                 worldMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+worldMatrix	src/bbPinball.c	/^    GLfloat                 worldMatrix[4 * 4];$/;"	m	struct:BBPinball_s	file:
+worldNormalMatLoc	include/bbMaterial.h	/^	GLint worldNormalMatLoc;$/;"	m	struct:__anon10
+xstart	include/bbTga.h	/^	GLushort	xstart;				\/* image x origin *\/$/;"	m	struct:__anon4
+ystart	include/bbTga.h	/^	GLushort	ystart;				\/* image y origin *\/$/;"	m	struct:__anon4

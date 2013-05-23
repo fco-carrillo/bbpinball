@@ -1,0 +1,413 @@
+"AlaPalikat"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_v_b_0"
+}
+"Balldoor"
+{
+	vertexShader	"../bbPinball/shaders/metal_balldoor.v"
+	fragShader		"../bbPinball/shaders/metal.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+}
+"Dropit"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_h"
+}
+"KeskiTotsa"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_p_01"
+}
+"Lattia"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_6_b"
+}
+"Lautasivut"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_b_w"
+}
+"LockBumper"
+{
+	vertexShader	"../bbPinball/shaders/metal.v"
+	fragShader		"../bbPinball/shaders/metal.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+}
+"LockPohja"
+{
+	vertexShader	"../bbPinball/shaders/metal.v"
+	fragShader		"../bbPinball/shaders/metal.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+}
+"LockValo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/LockValo"
+	blend
+}
+"Mailat"
+{
+	vertexShader		"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_m"
+}
+"MailojenVarjot"
+{
+	vertexShader		"../bbPinball/shaders/shadow.v"
+	fragShader		"../bbPinball/shaders/shadow.f"
+	texture			"../bbPinball/textures/t_maila_shadow"
+	blend
+}
+"Metalliosat"
+{
+	vertexShader		"../bbPinball/shaders/metal.v"
+	fragShader		"../bbPinball/shaders/metal.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+}
+"Nuolivalo01"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Nuolivalo01"
+	blend
+}
+"Nuolivalo02"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Nuolivalo02"
+	blend
+}
+"Nuolivalo03"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Nuolivalo03"
+	blend
+}
+"Nuolivalo04"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Nuolivalo04"
+	blend
+}
+"Nuolivalo05"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Nuolivalo05"
+	blend
+}
+"Oikea150Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Oikea150Valo"
+	blend
+}
+"Oikea300Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Oikea300Valo"
+	blend
+}
+"Oikea500Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Oikea500Valo"
+	blend
+}
+"OikeaTotsa"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_p_03"
+}
+"Pallo"
+{
+	vertexShader	"../bbPinball/shaders/ball.v"
+	fragShader		"../bbPinball/shaders/ball.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+	blend
+}
+"PallonVarjo"
+{
+	vertexShader	"../bbPinball/shaders/shadow.v"
+	fragShader		"../bbPinball/shaders/shadow.f"
+	texture			"../bbPinball/textures/PallonVarjo"
+	blend
+}
+"Pleksi"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/pleksi"
+	blend
+}
+"Pohjalauta_Original"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_b_w"
+	additive
+}
+"Pohjalauta"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_b_w"
+}
+"Runko01"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/T_1"
+}
+"Runko02"
+{
+	vertexShader		"../bbPinball/shaders/metal2.v"
+	fragShader		"../bbPinball/shaders/metal_mul.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+	texture2		"../bbPinball/textures/t_2"
+}
+"Sensorit"
+{
+	vertexShader	"../bbPinball/shaders/metal.v"
+	fragShader		"../bbPinball/shaders/metal.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+}
+"Metalli"
+{
+	vertexShader		"../bbPinball/shaders/metal2.v"
+	fragShader		"../bbPinball/shaders/metal_mul.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+	texture2		"../bbPinball/textures/t_a_06"
+}
+"TapitBumpers"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_a_02"
+}
+"Taulu"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/T_3"
+}
+"TornienKatot"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_a_05"
+}
+"Tuntematon01"
+{
+	vertexShader	"../bbPinball/shaders/metal.v"
+	fragShader		"../bbPinball/shaders/metal.f"
+	cubeTexture		"../bbPinball/textures/t_cubic_env"
+}
+"Vasen150Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Vasen150Valo"
+	blend
+}
+"Vasen300Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Vasen300Valo"
+	blend
+}
+"Vasen500Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/Vasen500Valo"
+	blend
+}
+"VasenTotsa"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/T_p_02"
+}
+"X1Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/X1Valo"
+	blend
+}
+"X2Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/X2Valo"
+	blend
+}
+"X3Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/X3Valo"
+	blend
+}
+"X4Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/X4Valo"
+	blend
+}
+"X5Valo"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/X5Valo"
+	blend
+}
+"YlaPalikat"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_v_a_0"
+}
+"YlaSwitch01"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/YlaSwitch01"
+	blend
+}
+"YlaSwitch02"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/YlaSwitch02"
+	blend
+}
+"YlaSwitch03"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/YlaSwitch03"
+	blend
+}
+"YlaSwitch04"
+{
+	vertexShader	"../bbPinball/shaders/light.v"
+	fragShader		"../bbPinball/shaders/light.f"
+	texture			"../bbPinball/textures/YlaSwitch04"
+	blend
+}
+"YlempiAlusta"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_b_w"
+}
+"MustaLappu"
+{
+	vertexShader	"../bbPinball/shaders/black.v"
+	fragShader		"../bbPinball/shaders/black.f"
+}
+"VoidPleksi"
+{
+	vertexShader	"../bbPinball/shaders/black.v"
+	fragShader		"../bbPinball/shaders/black.f"
+}
+
+
+"SeinaA"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_6_a"
+}
+"SeinaB"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_6_b"
+}
+"Lattia"
+{
+	vertexShader	"../bbPinball/shaders/tex.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/t_6_c"
+}
+
+"Led"
+{
+	vertexShader	"../bbPinball/shaders/led.v"
+	fragShader		"../bbPinball/shaders/tex.f"
+	texture			"../bbPinball/textures/ledfont"
+	additive
+}
+
+
+"default"
+{
+	vertexShader	"../bbPinball/shaders/default.v"
+	fragShader		"../bbPinball/shaders/default.f"
+}
+
+"m_hud"
+{
+	vertexShader		"../bbPinball/shaders/hudBlack.v"
+	fragShader		"../bbPinball/shaders/hudBlack.f"
+	blend
+}
+
+"m_startscreen"
+{
+	vertexShader	"../bbPinball/shaders/hud.v"
+	fragShader		"../bbPinball/shaders/hud.f"
+	texture			"../bbPinball/textures/start_screen"
+	blend
+}
+"m_startscreen2"
+{
+	vertexShader	"../bbPinball/shaders/hud.v"
+	fragShader		"../bbPinball/shaders/hud.f"
+	texture			"../bbPinball/textures/start_screen2"
+	additive
+}
+
+"m_startscreenback"
+{
+	vertexShader	"../bbPinball/shaders/hudBlack.v"
+	fragShader		"../bbPinball/shaders/hudBlack.f"
+	blend
+}
+
+"m_smallfont"
+{
+	vertexShader	"../bbPinball/shaders/hud.v"
+	fragShader		"../bbPinball/shaders/hud.f"
+	texture			"../bbPinball/textures/t_smallfont"
+	blend
+}
+
+"m_textshadow"
+{
+	vertexShader	"../bbPinball/shaders/hud.v"
+	fragShader		"../bbPinball/shaders/hud.f"
+	texture			"../bbPinball/textures/t_textshadow"
+	blend
+}
+
