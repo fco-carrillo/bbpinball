@@ -2,6 +2,7 @@
 
 <data>
 	 <application name="OpenGL bbpinball demo">
+			<description>OpenGL pinball demo, this demo shows a pinball machine</description>
                         <command>gplay crab.avi &amp;</command>
                         <route>/bbpinball</route>
          </application>
