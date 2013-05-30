@@ -4,8 +4,8 @@
 	<module name="OpenGL">
 		 <application name="OpenGL bbpinball demo">
 				<description>OpenGL pinball demo, this demo shows a pinball machine</description>
-		                <command>demos/bbpinball/bbPinball &amp;</command>
-		                <route>/bbpinball</route>
+		                <command>demos/bbpinball/command.exc &amp;</command>
+		                <route>bbpinball</route>
 				<image>bbpinball</image>
 		 </application>
 	</module>
